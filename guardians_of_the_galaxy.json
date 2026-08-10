@@ -1,0 +1,203 @@
+{
+    "version": "1.0.0",
+    "gameInfo": {
+        "name": "Guardians of the Galaxy Expansion",
+        "publisher": "Upper Deck"
+    },
+    "expansion": {
+        "id": "guardians_of_the_galaxy",
+        "name": "Guardians of the Galaxy",
+        "releaseYear": 2014,
+        "heroes": [
+            {
+                "name": "Drax the Destroyer",
+                "team": "Guardians of the Galaxy",
+                "types": [
+                    "Strength",
+                    "Instinct"
+                ],
+                "displayName": "Drax the Destroyer"
+            },
+            {
+                "name": "Gamora",
+                "team": "Guardians of the Galaxy",
+                "types": [
+                    "Covert",
+                    "Instinct"
+                ],
+                "displayName": "Gamora"
+            },
+            {
+                "name": "Groot",
+                "team": "Guardians of the Galaxy",
+                "types": [
+                    "Covert",
+                    "Strength"
+                ],
+                "displayName": "Groot"
+            },
+            {
+                "name": "Rocket Raccoon",
+                "team": "Guardians of the Galaxy",
+                "types": [
+                    "Ramged",
+                    "Instinct"
+                ],
+                "displayName": "Rocket Raccoon"
+            },
+            {
+                "name": "Star-Lord",
+                "team": "Guardians of the Galaxy",
+                "types": [
+                    "Tech",
+                    "Covert",
+                    "Ranged"
+                ],
+                "displayName": "Star-Lord"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Supreme Intelligence of the Kree",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Kree Starforce"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Kree Starforce"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Supreme Intelligence of the Kree"
+            },
+            {
+                "name": "Thanos",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Infinity Gems"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Infinity Gems"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Thanos"
+            }
+        ],
+        "villains": [
+            {
+                "name": "Infinity Gems",
+                "displayName": "Infinity Gems"
+            },
+            {
+                "name": "Kree Starforce",
+                "displayName": "Kree Starforce"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Forge The Infinity Gauntlet",
+                "schemeTwists": 8,
+                "postRandomization": {
+                    "villains": {
+                        "forceInclude": [
+                            "Infinity Gems"
+                        ],
+                        "priority": 10
+                    }
+                },
+                "displayName": "Forge The Infinity Gauntlet"
+            },
+            {
+                "name": "Intergalactic Kree Nega-Bomb",
+                "schemeTwists": 8,
+                "setup": {
+                    "notes": [
+                        "Make a Face Down 'Nega-Bomb Deck' of 6 Bystanders"
+                    ]
+                },
+                "displayName": "Intergalactic Kree Nega-Bomb"
+            },
+            {
+                "name": "The Kree-Skrull War",
+                "schemeTwists": 8,
+                "postRandomization": {
+                    "villains": {
+                        "forceInclude": [
+                            "Subterranea",
+                            "Kree Starforce"
+                        ],
+                        "priority":100
+                    }
+                },
+                "displayName": "The Kree-Skrull War"
+            },
+            {
+                "name": "Unite The Shards",
+                "setup": {
+                    "notes": [
+                        "30 Shards in the supply"
+                    ],
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "schemeTwists": 6
+                                },
+                                "2": {
+                                    "schemeTwists": 7
+                                },
+                                "3": {
+                                    "schemeTwists": 8
+                                },
+                                "4": {
+                                    "schemeTwists": 9
+                                },
+                                "5": {
+                                    "schemeTwists": 10
+                                },
+                                "6": {
+                                    "schemeTwists": 11
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Unite The Shards"
+            }
+        ]
+    }
+}
