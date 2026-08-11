@@ -1,0 +1,146 @@
+{
+    "version": "1.0.0",
+    "gameInfo": {
+        "name": "Fear Itself Expansion",
+        "publisher": "Upper Deck"
+    },
+    "expansion": {
+        "id": "fear_itself",
+        "name": "Fear Itself",
+        "releaseYear": 2015,
+        "heroes": [
+            {
+                "name": "Greithoh, Breaker of Wills",
+                "team": "Foes of Asgard",
+                "types": [
+                    "Instint",
+                    "Covert",
+                    "Strength"
+                ],
+                "displayName": "Greithoh, Breaker of Wills"
+            },
+            {
+                "name": "Kuurth, Breaker of Stone",
+                "team": "Foes of Asgard",
+                "types": [
+                    "Tech",
+                    "Strength"
+                ],
+                "displayName": "Kuurth, Breaker of Stone"
+            },
+            {
+                "name": "Nul, Breaker of Worlds",
+                "team": "Foes of Asgard",
+                "types": [
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Nul, Breaker of Worlds"
+            },
+            {
+                "name": "Skirn, Breaker of Men",
+                "team": "Foes of Asgard",
+                "types": [
+                    "Covert",
+                    "Strength"
+                ],
+                "displayName": "Skirn, Breaker of Men"
+            },
+            {
+                "name": "Nerkkod, Breaker of Oceans",
+                "team": "Foes of Asgard",
+                "types": [
+                    "Instinct",
+                    "Strength",
+                    "Tech",
+                    "Covert"
+                ],
+                "displayName": "Nerkkod, Breaker of Oceans"
+            },
+            {
+                "name": "Skadi",
+                "team": "Hydra",
+                "types": [
+                    "Ranged",
+                    "Strength",
+                    "Covert"
+                ],
+                "displayName": "Skadi"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Uru-Enchanted Iron Man",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "The Mighty"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "The Mighty"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Uru-Enchanted Iron Man"
+            }
+        ],
+        "villains": [
+            {
+                "name": "The Mighty",
+                "displayName": "The Mighty"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Last Stand at Avengers Tower",
+                "schemeTwists": 6,
+                "displayName": "Last Stand at Avengers Tower"
+            },
+            {
+                "name": "Fear Itself",
+                "schemeTwists": 10,
+                "displayName": "Fear Itself"
+            },
+            {
+                "name": "The Traitor",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "schemeTwists": 8,
+                                    "notes": [
+                                        "Not recommended for solo play."
+                                    ]
+                                },
+                                "2-5": {
+                                    "schemeTwists": 8,
+                                    "notes": [
+                                        "Shuffle a 'Betrayal Deck' of 3 Bindings per player and a 9th Twist."
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "displayName": "The Traitor"
+                }
+            }
+        ]
+    }
+}

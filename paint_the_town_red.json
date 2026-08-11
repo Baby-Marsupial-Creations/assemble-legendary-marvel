@@ -11,7 +11,7 @@
         "heroes": [
             {
                 "name": "Black Cat",
-                "team": "Spider-Friends",
+                "team": "Spider Friends",
                 "types": [
                     "Covert",
                     "Instinct"
@@ -29,7 +29,7 @@
             },
             {
                 "name": "Scarlet Spider",
-                "team": "Spider-Friends",
+                "team": "Spider Friends",
                 "types": [
                     "Strength",
                     "Instinct",
@@ -39,7 +39,7 @@
             },
             {
                 "name": "Spider-Woman",
-                "team": "Spider-Friends",
+                "team": "Spider Friends",
                 "types": [
                     "Strength",
                     "Tech",
@@ -49,7 +49,7 @@
             },
             {
                 "name": "Symbiote Spider-Man",
-                "team": "Spider-Friends",
+                "team": "Spider Friends",
                 "types": [
                     "Strength",
                     "Instinct",
@@ -143,7 +143,7 @@
                         "Add 6 extra Henchman from a single Henchman Group to the Hero Deck"
                     ]
                 },
-                "displayName": "Invade the Daily Bugle N"
+                "displayName": "Invade the Daily Bugle News HQ"
             },
             {
                 "name": "Splice Humans With Spider DNA",
