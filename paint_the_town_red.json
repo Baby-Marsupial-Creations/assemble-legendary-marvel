@@ -137,11 +137,14 @@
             },
             {
                 "name": "Invade the Daily Bugle News HQ",
-                "schemeTwists": 8,
-                "setup": {
-                    "notes": [
-                        "Add 6 extra Henchman from a single Henchman Group to the Hero Deck"
-                    ]
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "setup": {
+                        "henchmanDeck": {},
+                        "setupNotes": [
+                            "Add 6 extra Henchman from a single Henchman Group to the Hero Deck"
+                        ]
+                    }
                 },
                 "displayName": "Invade the Daily Bugle News HQ"
             },
@@ -150,10 +153,10 @@
                 "schemeTwists": 8,
                 "postRandomization": {
                     "villains": {
-                    "forceInclude": [
-                        "Sinister Six"
-                    ],
-                    "priority": 10
+                        "forceInclude": [
+                            "Sinister Six"
+                        ],
+                        "priority": 10
                     }
                 },
                 "displayName": "Splice Humans With Spider DNA"
