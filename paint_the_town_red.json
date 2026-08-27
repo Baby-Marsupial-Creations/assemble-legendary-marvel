@@ -22,7 +22,7 @@
                 "name": "Moon Knight",
                 "team": "Marvel Knights",
                 "types": [
-                    "Ranged",
+                    "Tech",
                     "Instinct"
                 ],
                 "displayName": "Moon Knight"
@@ -42,7 +42,7 @@
                 "team": "Spider Friends",
                 "types": [
                     "Strength",
-                    "Tech",
+                    "Ranged",
                     "Covert"
                 ],
                 "displayName": "Spider-Woman"
@@ -137,14 +137,20 @@
             },
             {
                 "name": "Invade the Daily Bugle News HQ",
+                "schemeTwists": 8,
                 "postRandomization": {
-                    "schemeTwists": 8,
-                    "setup": {
-                        "henchmanDeck": {},
-                        "setupNotes": [
-                            "Add 6 extra Henchman from a single Henchman Group to the Hero Deck"
-                        ]
-                    }
+
+                    "dynamicNotes": [
+                        {
+                            "template": "Add 6 extra Henchmen from a single Henchman Group to the Hero Deck. ({selectedHenchmen})",
+                            "variables": {
+                                "selectedHenchmen": {
+                                    "type": "randomUnusedElementOfType",
+                                    "elementType": "henchmen"
+                                }
+                            }
+                        }
+                    ]
                 },
                 "displayName": "Invade the Daily Bugle News HQ"
             },
