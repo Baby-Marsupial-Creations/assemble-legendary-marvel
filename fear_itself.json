@@ -10,20 +10,20 @@
         "releaseYear": 2015,
         "heroes": [
             {
-                "name": "Greithoh, Breaker of Wills",
+                "name": "Greithoth, Breaker of Willss",
                 "team": "Foes of Asgard",
                 "types": [
                     "Instint",
                     "Covert",
                     "Strength"
                 ],
-                "displayName": "Greithoh, Breaker of Wills"
+                "displayName": "Greithoth, Breaker of Wills"
             },
             {
                 "name": "Kuurth, Breaker of Stone",
                 "team": "Foes of Asgard",
                 "types": [
-                    "Tech",
+                    "Ranged",
                     "Strength"
                 ],
                 "displayName": "Kuurth, Breaker of Stone"
@@ -42,6 +42,8 @@
                 "team": "Foes of Asgard",
                 "types": [
                     "Covert",
+                    "Instinct",
+                    "Ranged",
                     "Strength"
                 ],
                 "displayName": "Skirn, Breaker of Men"
@@ -52,16 +54,16 @@
                 "types": [
                     "Instinct",
                     "Strength",
-                    "Tech",
+                    "Ranged",
                     "Covert"
                 ],
                 "displayName": "Nerkkod, Breaker of Oceans"
             },
             {
                 "name": "Skadi",
-                "team": "Hydra",
+                "team": "HYDRA",
                 "types": [
-                    "Ranged",
+                    "Tech",
                     "Strength",
                     "Covert"
                 ],

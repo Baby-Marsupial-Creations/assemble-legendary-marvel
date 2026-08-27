@@ -40,8 +40,9 @@
                 "name": "Rocket Raccoon",
                 "team": "Guardians of the Galaxy",
                 "types": [
-                    "Ramged",
-                    "Instinct"
+                    "Ranged",
+                    "Instinct",
+                    "Tech"
                 ],
                 "displayName": "Rocket Raccoon"
             },
@@ -152,14 +153,16 @@
             },
             {
                 "name": "The Kree-Skrull War",
-                "schemeTwists": 8,
                 "postRandomization": {
-                    "villains": {
-                        "forceInclude": [
-                            "Skrulls",
-                            "Kree Starforce"
+                    "schemeTwists": 8,
+                    "setup": {
+                        "villainGroups": [
+                            "Kree Starforce",
+                            "Skrulls"
                         ],
-                        "priority":100
+                        "notes": [
+                            "Always include Kree Starforce and Skrull Villain Groups."
+                        ]
                     }
                 },
                 "displayName": "The Kree-Skrull War"
