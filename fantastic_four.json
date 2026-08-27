@@ -14,7 +14,7 @@
                 "team": "Fantastic Four",
                 "types": [
                     "Instinct",
-                    "Tech"
+                    "Ranged"
                 ],
                 "displayName": "Human Torch"
             },
@@ -23,7 +23,7 @@
                 "team": "Fantastic Four",
                 "types": [
                     "Covert",
-                    "Tech"
+                    "Ranged"
                 ],
                 "displayName": "Invisible Woman"
             },
@@ -31,7 +31,7 @@
                 "name": "Mr. Fantastic",
                 "team": "Fantastic Four",
                 "types": [
-                    "Ranged",
+                    "Tech",
                     "Instinct"
                 ],
                 "displayName": "Mr. Fantastic"
@@ -42,7 +42,7 @@
                 "types": [
                     "Covert",
                     "Strength",
-                    "tech"
+                    "Ranged"
                 ],
                 "displayName": "Silver Surfer"
             },
@@ -128,9 +128,9 @@
         ],
         "schemes": [
             {
-                "name": "Bathe Earth In Cosmic Rays",
+                "name": "Bathe Earth in Cosmic Rays",
                 "schemeTwists": 6,
-                "displayName": "Bathe Earth In Cosmic Rays"
+                "displayName": "Bathe Earth in Cosmic Rays"
             },
             {
                 "name": "Flood The Planet With Melted Glaciers",
