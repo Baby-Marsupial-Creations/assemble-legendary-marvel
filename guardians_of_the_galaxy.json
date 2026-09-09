@@ -107,7 +107,7 @@
                                         "forceExclude": [
                                             "Infinity Gems"
                                         ],
-                                        "priority": 10
+                                        "priority": 15
                                     }
                                 }
                             }
@@ -144,7 +144,7 @@
             {
                 "name": "Intergalactic Kree Nega-Bomb",
                 "schemeTwists": 8,
-                "setup": {
+                "postRandomization": {
                     "notes": [
                         "Make a Face Down 'Nega-Bomb Deck' of 6 Bystanders"
                     ]
@@ -155,21 +155,19 @@
                 "name": "The Kree-Skrull War",
                 "postRandomization": {
                     "schemeTwists": 8,
-                    "setup": {
-                        "villainGroups": [
-                            "Kree Starforce",
-                            "Skrulls"
-                        ],
-                        "notes": [
-                            "Always include Kree Starforce and Skrull Villain Groups."
-                        ]
-                    }
+                    "villainGroups": [
+                        "Kree Starforce",
+                        "Skrulls"
+                    ],
+                    "notes": [
+                        "Always include Kree Starforce and Skrull Villain Groups."
+                    ]
                 },
                 "displayName": "The Kree-Skrull War"
             },
             {
                 "name": "Unite The Shards",
-                "setup": {
+                "postRandomization": {
                     "notes": [
                         "30 Shards in the supply"
                     ],

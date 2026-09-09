@@ -359,7 +359,7 @@
       {
         "name": "Capture_Baby_Hope",
         "schemeTwists": 8,
-        "setup": {
+        "postRandomization": {
           "notes": [
             "Put a token on this Scheme to represent the baby, Hope Summers."
           ]
@@ -369,7 +369,7 @@
       {
         "name": "Detonate_the_Helicarrier",
         "schemeTwists": 8,
-        "setup": {
+        "postRandomization": {
           "heroes": {
             "set": {
               "count": 6
@@ -381,7 +381,7 @@
       {
         "name": "Massive_Earthquake_Generator",
         "schemeTwists": 8,
-        "setup": {},
+        "postRandomization": {},
         "displayName": "Massive Earthquake Generator"
       },
       {
@@ -400,7 +400,7 @@
       {
         "name": "Save_Humanity",
         "schemeTwists": 8,
-        "setup": {
+        "postRandomization": {
           "conditionalRules": [
             {
               "parameter": "numberOfPlayers",
@@ -424,7 +424,7 @@
       {
         "name": "Steal_the_Weaponized_Plutonium",
         "schemeTwists": 8,
-        "setup": {
+        "postRandomization": {
           "villains": {
             "addExtra": 1
           }

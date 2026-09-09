@@ -389,10 +389,6 @@
         "name": "Secret_Invasion_Of_The_Skrull_Shapeshifters",
         "postRandomization": {
           "schemeTwists": 8,
-          "villainDeck": {},
-          "board": {
-            "forceType": "Hero"
-          },
           "notes": [
             "Shuffle 12 random Heroes from the Hero Deck into the Villain Deck."
           ],

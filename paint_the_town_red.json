@@ -101,7 +101,7 @@
                                         "forceInclude": [
                                             "Sinister Six"
                                         ],
-                                        "priority": 10
+                                        "priority": 15
                                     }
                                 },
                                 "1": {
@@ -109,7 +109,7 @@
                                         "forceExclude": [
                                             "Sinister Six"
                                         ],
-                                        "priority": 10
+                                        "priority": 15
                                     }
                                 }
                             }
@@ -139,7 +139,6 @@
                 "name": "Invade the Daily Bugle News HQ",
                 "schemeTwists": 8,
                 "postRandomization": {
-
                     "dynamicNotes": [
                         {
                             "template": "Add 6 extra Henchmen from a single Henchman Group to the Hero Deck. ({selectedHenchmen})",
