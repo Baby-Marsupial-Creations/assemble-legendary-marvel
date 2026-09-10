@@ -377,7 +377,6 @@
         "name": "Replace_Earths_Leaders_With_Killbots",
         "postRandomization": {
           "schemeTwists": 5,
-          "extraTwistsNextToScheme": 3,
           "bystanders": 18,
           "notes": [
             "3 additional Twists next to this Scheme."

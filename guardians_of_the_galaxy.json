@@ -153,15 +153,15 @@
             },
             {
                 "name": "The Kree-Skrull War",
+                "schemeTwists": 8,
                 "postRandomization": {
-                    "schemeTwists": 8,
-                    "villainGroups": [
-                        "Kree Starforce",
-                        "Skrulls"
-                    ],
-                    "notes": [
-                        "Always include Kree Starforce and Skrull Villain Groups."
-                    ]
+                    "villains": {
+                        "forceInclude": [
+                            "Kree Starforce",
+                            "Skrulls"
+                        ],
+                        "priority":20
+                    }
                 },
                 "displayName": "The Kree-Skrull War"
             },
