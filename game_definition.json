@@ -57,10 +57,7 @@
           "masterminds": 1,
           "schemes": 1,
           "boards": 1
-        },
-        "notes": [
-          "Use only 3 henchmen cards."
-        ]
+        }
       },
       "2": {
         "elementCounts": {
@@ -153,7 +150,7 @@
         "setupNotes": {
           "basedOn": "numberOfPlayers",
           "mappings": {
-            "1": ["Use only 3 henchmen cards."],
+            "1": ["Use only 3 Henchmen cards per Henchmen group."],
             "2": [],
             "3": [],
             "4": [],
@@ -278,7 +275,7 @@
               "iconData": "team-icons/xmen192.png",
               "type": "asset"
             },
-            "Spider-Friends": {
+            "Spider Friends": {
               "iconData": "team-icons/spiderfriends192.png",
               "type": "asset"
             },

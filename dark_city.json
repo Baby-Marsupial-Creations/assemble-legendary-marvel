@@ -393,7 +393,20 @@
               "Maggia_Goons"
             ],
             "priority": 10
+          },
+        "conditionalRules": [
+          {
+            "parameter": "numberOfPlayers",
+            "conditions": {
+              "1": {
+                "notes": [
+                  "This scheme ignores the solo Henchmen limit for Maggia Goons. Use all 10 cards of the Maggia Goons Henchmen group."
+                ]
+              }
+            }
           }
+  ]
+
         },
         "displayName": "Organized Crime Wave"
       },
