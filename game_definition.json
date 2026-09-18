@@ -323,6 +323,23 @@
               "iconData": "team-icons/venomverse192.png",
               "type": "asset"
             },
+            "Cabal": {
+              "iconData": "team-icons/cabal192.png",
+              "type": "asset"
+            },
+            "Foes of Asgard": {
+              "iconData": "team-icons/foesofasgard192.png",
+              "type": "asset"
+            },
+            "HYDRA": {
+              "iconData": "team-icons/hydra192.png",
+              "type": "asset"
+            },
+            "Illuminati": {
+              "iconData": "groups",
+              "type": "material",
+              "color": "#7E57C2"
+            },
             "Unaffiliated": {
               "iconData": "shield",
               "type": "material",
