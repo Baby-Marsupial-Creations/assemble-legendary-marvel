@@ -11,96 +11,309 @@
         "heroes": [
             {
                 "name": "Bullseye",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Ranged"],
+                "team": "Crime Syndicate",
+                "types": [
+                    "Covert",
+                    "Instinct",
+                    "Ranged"
+                ],
                 "displayName": "Bullseye"
             },
             {
                 "name": "Dr_Octopus",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Tech"],
+                "team": "Sinister Six",
+                "types": [
+                    "Strength",
+                    "Tech"
+                ],
                 "displayName": "Dr. Octopus"
             },
             {
                 "name": "Electro",
-                "team": "Unaffiliated",
-                "types": ["Tech", "Ranged"],
+                "team": "Sinister Six",
+                "types": [
+                    "Ranged",
+                    "Tech"
+                ],
                 "displayName": "Electro"
             },
             {
                 "name": "Enchantress",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Instinct"],
+                "team": "Foes Of Asgard",
+                "types": [
+                    "Covert",
+                    "Ranged"
+                ],
                 "displayName": "Enchantress"
             },
             {
                 "name": "Green_Goblin",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Tech"],
+                "team": "Sinister Six",
+                "types": [
+                    "Tech",
+                    "Instinct"
+                ],
                 "displayName": "Green Goblin"
             },
             {
                 "name": "Juggernaut",
-                "team": "Unaffiliated",
-                "types": ["Instinct", "Strength"],
+                "team": "Brotherhood",
+                "types": [
+                    "Strength"
+                ],
                 "displayName": "Juggernaut"
             },
             {
                 "name": "Kingpin",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Strength"],
+                "team": "Crime Syndicate",
+                "types": [
+                    "Covert",
+                    "Strength",
+                    "Tech"
+                ],
                 "displayName": "Kingpin"
             },
             {
                 "name": "Kraven_the_Hunter",
-                "team": "Unaffiliated",
-                "types": ["Instinct", "Covert"],
+                "team": "Sinister Six",
+                "types": [
+                    "Covert",
+                    "Instinct",
+                    "Strength"
+                ],
                 "displayName": "Kraven the Hunter"
             },
             {
                 "name": "Loki",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Tech"],
+                "team": "Foes Of Asgard",
+                "types": [
+                    "Covert",
+                    "Ranged"
+                ],
                 "displayName": "Loki"
             },
             {
                 "name": "Magneto",
-                "team": "Unaffiliated",
-                "types": ["Tech", "Strength"],
+                "team": "Brotherhood",
+                "types": [
+                    "Ranged",
+                    "Strength"
+                ],
                 "displayName": "Magneto"
             },
             {
                 "name": "Mysterio",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Tech"],
+                "team": "Sinister Six",
+                "types": [
+                    "Covert",
+                    "Instinct",
+                    "Ranged",
+                    "Tech"
+                ],
                 "displayName": "Mysterio"
             },
             {
                 "name": "Mystique",
-                "team": "Unaffiliated",
-                "types": ["Covert", "Instinct"],
+                "team": "Brotherhood",
+                "types": [
+                    "Covert",
+                    "Instinct",
+                    "Tech"
+                ],
                 "displayName": "Mystique"
+            },
+            {
+                "name": "Sabretooth",
+                "team": "Brotherhood",
+                "types": [
+                    "Covert",
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Sabretooth"
+            },
+            {
+                "name": "Ultron",
+                "team": "Unaffiliated",
+                "types": [
+                    "Tech"
+                ],
+                "displayName": "Ultron"
+            },
+            {
+                "name": "Venom",
+                "team": "Sinister Six",
+                "types": [
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Venom"
             }
         ],
         "masterminds": [
             {
+                "name": "Dr_Strange",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Defenders"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Defenders"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Dr. Strange"
+            },
+            {
+                "name": "Nick_Fury",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Avengers"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Avengers"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Nick Fury"
+            },
+            {
                 "name": "Odin",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "henchmen": {
+                                        "forceInclude": [
+                                            "Asgardian_Warriors"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "henchmen": {
+                                        "forceExclude": [
+                                            "Asgardian_Warriors"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
                 "displayName": "Odin"
+            },
+            {
+                "name": "Professor_X",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "X-Men_First_Class"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "X-Men_First_Class"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Professor X"
             }
         ],
-        "villains": [],
+        "villains": [
+            {
+                "name": "Avengers",
+                "displayName": "Avengers"
+            },
+            {
+                "name": "Defenders",
+                "displayName": "Defenders"
+            },
+            {
+                "name": "Marvel_Knights",
+                "displayName": "Marvel Knights"
+            },
+            {
+                "name": "Spider_Friends",
+                "displayName": "Spider Friends"
+            },
+            {
+                "name": "Uncanny_Avengers",
+                "displayName": "Uncanny Avengers"
+            },
+            {
+                "name": "Uncanny_X-Men",
+                "displayName": "Uncanny X-Men"
+            },
+            {
+                "name": "X-Men_First_Class",
+                "displayName": "X-Men First Class"
+            }
+        ],
         "henchmen": [
             {
-                "name": "New_Recruits",
-                "displayName": "New Recruits"
+                "name": "Asgardian_Warriors",
+                "displayName": "Asgardian Warriors"
             },
             {
                 "name": "Cops",
                 "displayName": "Cops"
             },
             {
-                "name": "MultipleMan",
+                "name": "Multiple_Man",
                 "displayName": "Multiple Man"
+            },
+            {
+                "name": "SHIELD_Assault_Squad",
+                "displayName": "S.H.I.E.L.D. Assault Squad"
             }
         ],
         "schemes": [
@@ -125,14 +338,30 @@
                 "displayName": "Cage Villains in Power-Suppressing Cells"
             },
             {
-                "name": "Crush_Hydra",
+                "name": "Crown_Thor_King_of_Asgard",
                 "schemeTwists": 8,
                 "postRandomization": {
                     "notes": [
-                        "Include 10 New Recruits as one of the Backup Adversary groups."
+                        "Put the Thor Adversary next to this Plot."
                     ]
                 },
+                "displayName": "Crown Thor King of Asgard"
+            },
+            {
+                "name": "Crush_Hydra",
+                "schemeTwists": 8,
+                "postRandomization": {},
                 "displayName": "Crush Hydra"
+            },
+            {
+                "name": "Graduation_at_Xaviers_X-Academy",
+                "schemeTwists": 8,
+                "postRandomization": {
+                    "notes": [
+                        "Stack 8 Bystanders next to this Plot as \"Young Mutants\"."
+                    ]
+                },
+                "displayName": "Graduation at Xavier's X-Academy"
             },
             {
                 "name": "Infiltrate_the_Lair_with_Spies",
@@ -148,9 +377,11 @@
                 "name": "Mass_Produce_War_Machine_Armor",
                 "schemeTwists": 8,
                 "postRandomization": {
-                    "notes": [
-                        "Include 10 S.H.I.E.L.D. Assault Squads as one of the Backup Adversary groups."
-                    ]
+                    "henchmen": {
+                        "forceInclude": [
+                            "SHIELD_Assault_Squad"
+                        ]
+                    }
                 },
                 "displayName": "Mass Produce War Machine Armor"
             },
@@ -159,26 +390,6 @@
                 "schemeTwists": 8,
                 "postRandomization": {},
                 "displayName": "Resurrect Heroes with the Norn Stones"
-            },
-            {
-                "name": "Crown_Thor_King_of_Asgard",
-                "schemeTwists": 8,
-                "postRandomization": {
-                    "notes": [
-                        "Put the Thor Adversary next to this Plot."
-                    ]
-                },
-                "displayName": "Crown Thor King of Asgard"
-            },
-            {
-                "name": "Graduation_at_Xaviers_X-Academy",
-                "schemeTwists": 8,
-                "postRandomization": {
-                    "notes": [
-                        "Stack 8 Bystanders next to this Plot as \"Young Mutants\"."
-                    ]
-                },
-                "displayName": "Graduation at Xavier's X-Academy"
             }
         ]
     }
