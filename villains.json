@@ -32,14 +32,14 @@
                 "name": "Electro",
                 "team": "Sinister Six",
                 "types": [
-                    "Ranged",
-                    "Tech"
+                    "Instinct",
+                    "Ranged"
                 ],
                 "displayName": "Electro"
             },
             {
                 "name": "Enchantress",
-                "team": "Foes Of Asgard",
+                "team": "Foes of Asgard",
                 "types": [
                     "Covert",
                     "Ranged"
@@ -74,18 +74,18 @@
                 "displayName": "Kingpin"
             },
             {
-                "name": "Kraven_the_Hunter",
+                "name": "Kraven",
                 "team": "Sinister Six",
                 "types": [
                     "Covert",
                     "Instinct",
                     "Strength"
                 ],
-                "displayName": "Kraven the Hunter"
+                "displayName": "Kraven"
             },
             {
                 "name": "Loki",
-                "team": "Foes Of Asgard",
+                "team": "Foes of Asgard",
                 "types": [
                     "Covert",
                     "Ranged"
