@@ -1,13 +1,12 @@
 {
     "version": "1.0.0",
-    "game info": {
+    "gameInfo": {
         "name": "Fantastic Four Expansion",
         "publisher": "Upper Deck"
     },
     "expansion": {
         "id": "fantastic_four",
         "name": "Fantastic Four",
-        "releaseYear": 2013,
         "heroes": [
             {
                 "name": "Human Torch",
