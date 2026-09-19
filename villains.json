@@ -379,7 +379,8 @@
                     "henchmen": {
                         "forceInclude": [
                             "SHIELD_Assault_Squad"
-                        ]
+                        ],
+                        "priority": 20
                     }
                 },
                 "displayName": "Mass Produce War Machine Armor"
