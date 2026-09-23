@@ -1,8 +1,4 @@
 {
-  "version": "1.0.0",
-  "gameInfo": {
-    "name": "Legendary: A Marvel Deck Building Game"
-  },
   "expansion": {
     "id": "core",
     "name": "Core",

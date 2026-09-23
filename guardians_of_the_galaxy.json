@@ -1,8 +1,4 @@
 {
-    "version": "1.0.0",
-    "gameInfo": {
-        "name": "Guardians Of The Galaxy Expansion"
-    },
     "expansion": {
         "id": "guardians_of_the_galaxy",
         "name": "Guardians Of The Galaxy",

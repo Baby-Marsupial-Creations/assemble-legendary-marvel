@@ -1,8 +1,4 @@
 {
-  "version": "1.0.0",
-  "gameInfo": {
-    "name": "Dark City Expansion"
-  },
   "expansion": {
     "id": "dark_city",
     "name": "Dark City",

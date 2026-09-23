@@ -1,7 +1,4 @@
 {
-    "version": "1.0.0",
-    "gameInfo": {
-        "name": "Paint the Town Red Expansion"    },
     "expansion": {
         "id": "paint_the_town_red",
         "name": "Paint The Town Red",

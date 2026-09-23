@@ -1,7 +1,6 @@
 {
   "id": "legendary",
   "name": "Legendary: A Marvel Deck Building Game",
-  "version": "1.0.0",
   "iconData": "game-icons/legendary.jpg",
   "elementTypes": {
     "heroes": {
