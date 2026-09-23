@@ -154,8 +154,20 @@
                             "Kree Starforce",
                             "Skrulls"
                         ],
-                        "priority":20
-                    }
+                        "priority":50
+                    },
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "villains": {
+                                        "addExtra": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 },
                 "displayName": "The Kree-Skrull War"
             },
@@ -170,8 +182,7 @@
                             "parameter": "numberOfPlayers",
                             "conditions": {
                                 "1": {
-                                    "schemeTwists": 6,
-                                    "villains": { "addExtra": 1 } 
+                                    "schemeTwists": 6
                                 },
                                 "2": {
                                     "schemeTwists": 7
