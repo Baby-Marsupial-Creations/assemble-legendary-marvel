@@ -9,7 +9,7 @@
         "heroes": [
             {
                 "name": "Greithoth, Breaker of Willss",
-                "team": "Foes of Asgard",
+                "team": "Foes Of Asgard",
                 "types": [
                     "Instint",
                     "Covert",
@@ -19,7 +19,7 @@
             },
             {
                 "name": "Kuurth, Breaker of Stone",
-                "team": "Foes of Asgard",
+                "team": "Foes Of Asgard",
                 "types": [
                     "Ranged",
                     "Strength"
@@ -28,7 +28,7 @@
             },
             {
                 "name": "Nul, Breaker of Worlds",
-                "team": "Foes of Asgard",
+                "team": "Foes Of Asgard",
                 "types": [
                     "Instinct",
                     "Strength"
@@ -37,7 +37,7 @@
             },
             {
                 "name": "Skirn, Breaker of Men",
-                "team": "Foes of Asgard",
+                "team": "Foes Of Asgard",
                 "types": [
                     "Covert",
                     "Instinct",
@@ -48,7 +48,7 @@
             },
             {
                 "name": "Nerkkod, Breaker of Oceans",
-                "team": "Foes of Asgard",
+                "team": "Foes Of Asgard",
                 "types": [
                     "Instinct",
                     "Strength",
