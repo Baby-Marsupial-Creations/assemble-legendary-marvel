@@ -412,7 +412,7 @@
       },
       {
         "id": "boards",
-        "displayName": "Board",
+        "displayName": "Boards",
         "icon": "grid_view",
         "priority": 6,
         "showWhenEmpty": false,
