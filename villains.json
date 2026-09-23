@@ -1,12 +1,17 @@
 {
     "version": "1.0.0",
     "gameInfo": {
-        "name": "Villains Core Set",
-        "publisher": "Upper Deck"
+        "name": "Villains Core Set"
     },
     "expansion": {
         "id": "villains",
         "name": "Villains",
+        "boards": [
+            {
+                "name": "Villain",
+                "displayName": "Villain"
+            }
+        ],
         "heroes": [
             {
                 "name": "Bullseye",
@@ -322,7 +327,13 @@
                 "postRandomization": {
                     "notes": [
                         "The Bindings stack holds 5 Bindings per player."
-                    ]
+                    ],
+                    "boards": {
+                        "forceInclude": [
+                            "Villain"
+                        ],
+                        "priority": 5
+                    }
                 },
                 "displayName": "Build an Underground Mega-Vault Prison"
             },
@@ -342,7 +353,13 @@
                 "postRandomization": {
                     "notes": [
                         "Put the Thor Adversary next to this Plot."
-                    ]
+                    ],
+                    "boards": {
+                        "forceInclude": [
+                            "Villain"
+                        ],
+                        "priority": 5
+                    }
                 },
                 "displayName": "Crown Thor King of Asgard"
             },
@@ -368,7 +385,13 @@
                 "postRandomization": {
                     "notes": [
                         "Stack 21 Bystanders next to this Plot as \"Infiltrating Spies\"."
-                    ]
+                    ],
+                    "boards": {
+                        "forceInclude": [
+                            "Villain"
+                        ],
+                        "priority": 5
+                    }
                 },
                 "displayName": "Infiltrate the Lair with Spies"
             },
@@ -376,6 +399,12 @@
                 "name": "Mass_Produce_War_Machine_Armor",
                 "schemeTwists": 8,
                 "postRandomization": {
+                    "boards": {
+                        "forceInclude": [
+                            "Villain"
+                        ],
+                        "priority": 5
+                    },
                     "henchmen": {
                         "forceInclude": [
                             "SHIELD_Assault_Squad"
@@ -388,7 +417,14 @@
             {
                 "name": "Resurrect_Heroes_with_the_Norn_Stones",
                 "schemeTwists": 8,
-                "postRandomization": {},
+                "postRandomization": {
+                    "boards": {
+                        "forceInclude": [
+                            "Villain"
+                        ],
+                        "priority": 5
+                    }
+                },
                 "displayName": "Resurrect Heroes With The Norn Stones"
             }
         ]

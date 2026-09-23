@@ -1,8 +1,7 @@
 {
     "version": "1.0.0",
     "gameInfo": {
-        "name": "Fantastic Four Expansion",
-        "publisher": "Upper Deck"
+        "name": "Fantastic Four Expansion"
     },
     "expansion": {
         "id": "fantastic_four",

@@ -1,8 +1,7 @@
 {
     "version": "1.0.0",
     "gameInfo": {
-        "name": "Guardians of the Galaxy Expansion",
-        "publisher": "Upper Deck"
+        "name": "Guardians of the Galaxy Expansion"
     },
     "expansion": {
         "id": "guardians_of_the_galaxy",
@@ -188,9 +187,6 @@
                                 },
                                 "5": {
                                     "schemeTwists": 10
-                                },
-                                "6": {
-                                    "schemeTwists": 11
                                 }
                             }
                         }

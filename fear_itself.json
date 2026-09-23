@@ -1,8 +1,7 @@
 {
     "version": "1.0.0",
     "gameInfo": {
-        "name": "Fear Itself Expansion",
-        "publisher": "Upper Deck"
+        "name": "Fear Itself Expansion"
     },
     "expansion": {
         "id": "fear_itself",

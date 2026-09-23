@@ -1,8 +1,7 @@
 {
   "version": "1.0.0",
   "gameInfo": {
-    "name": "Legendary: A Marvel Deck Building Game",
-    "publisher": "Upper Deck"
+    "name": "Legendary: A Marvel Deck Building Game"
   },
   "expansion": {
     "id": "core",
