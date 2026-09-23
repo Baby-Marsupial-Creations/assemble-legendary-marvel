@@ -1,24 +1,24 @@
 {
     "version": "1.0.0",
     "gameInfo": {
-        "name": "Guardians of the Galaxy Expansion"
+        "name": "Guardians Of The Galaxy Expansion"
     },
     "expansion": {
         "id": "guardians_of_the_galaxy",
-        "name": "Guardians of the Galaxy",
+        "name": "Guardians Of The Galaxy",
         "heroes": [
             {
-                "name": "Drax the Destroyer",
-                "team": "Guardians of the Galaxy",
+                "name": "Drax The Destroyer",
+                "team": "Guardians Of The Galaxy",
                 "types": [
                     "Strength",
                     "Instinct"
                 ],
-                "displayName": "Drax the Destroyer"
+                "displayName": "Drax The Destroyer"
             },
             {
                 "name": "Gamora",
-                "team": "Guardians of the Galaxy",
+                "team": "Guardians Of The Galaxy",
                 "types": [
                     "Covert",
                     "Instinct"
@@ -27,7 +27,7 @@
             },
             {
                 "name": "Groot",
-                "team": "Guardians of the Galaxy",
+                "team": "Guardians Of The Galaxy",
                 "types": [
                     "Covert",
                     "Strength"
@@ -36,7 +36,7 @@
             },
             {
                 "name": "Rocket Raccoon",
-                "team": "Guardians of the Galaxy",
+                "team": "Guardians Of The Galaxy",
                 "types": [
                     "Ranged",
                     "Instinct",
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Star-Lord",
-                "team": "Guardians of the Galaxy",
+                "team": "Guardians Of The Galaxy",
                 "types": [
                     "Tech",
                     "Covert",
@@ -57,7 +57,7 @@
         ],
         "masterminds": [
             {
-                "name": "Supreme Intelligence of the Kree",
+                "name": "Supreme Intelligence Of The Kree",
                 "postRandomization": {
                     "conditionalRules": [
                         {
@@ -83,7 +83,7 @@
                         }
                     ]
                 },
-                "displayName": "Supreme Intelligence of the Kree"
+                "displayName": "Supreme Intelligence Of The Kree"
             },
             {
                 "name": "Thanos",
