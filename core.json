@@ -334,7 +334,12 @@
         "name": "Midtown_Bank_Robbery",
         "postRandomization": {
           "schemeTwists": 8,
-          "bystanders": 12
+          "bystanders": 12,
+            "boards": {
+                "forceInclude": [
+                    "Hero"
+                ]
+              }
         },
         "displayName": "Midtown Bank Robbery"
       },
