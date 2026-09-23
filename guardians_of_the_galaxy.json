@@ -170,7 +170,8 @@
                             "parameter": "numberOfPlayers",
                             "conditions": {
                                 "1": {
-                                    "schemeTwists": 6
+                                    "schemeTwists": 6,
+                                    "villains": { "addExtra": 1 } 
                                 },
                                 "2": {
                                     "schemeTwists": 7
