@@ -331,7 +331,7 @@
                         "priority": 5
                     }
                 },
-                "displayName": "Build an Underground Mega-Vault Prison"
+                "displayName": "Build An Underground Mega-Vault Prison"
             },
             {
                 "name": "Cage_Villains_in_Power-Suppressing_Cells",
@@ -341,7 +341,7 @@
                         "Stack 2 Cops per player next to this Plot."
                     ]
                 },
-                "displayName": "Cage Villains in Power-Suppressing Cells"
+                "displayName": "Cage Villains In Power-Suppressing Cells"
             },
             {
                 "name": "Crown_Thor_King_of_Asgard",
@@ -373,7 +373,7 @@
                         "Stack 8 Bystanders next to this Plot as \"Young Mutants.\""
                     ]
                 },
-                "displayName": "Graduation at Xavier's X-Academy"
+                "displayName": "Graduation At Xavier's X-Academy"
             },
             {
                 "name": "Infiltrate_the_Lair_with_Spies",
@@ -389,7 +389,7 @@
                         "priority": 5
                     }
                 },
-                "displayName": "Infiltrate the Lair with Spies"
+                "displayName": "Infiltrate The Lair with Spies"
             },
             {
                 "name": "Mass_Produce_War_Machine_Armor",

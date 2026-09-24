@@ -114,11 +114,11 @@
             },
             {
                 "name": "The Traitor",
+                "supportedPlayerCounts": [2, 3, 4, 5],
                 "postRandomization": {
                     "conditionalRules": [
                         {
                             "parameter": "numberOfPlayers",
-                            "supportedPlayerCounts": [2, 3, 4, 5],
                             "conditions": {
                                 "2-5": {
                                     "schemeTwists": 8,
