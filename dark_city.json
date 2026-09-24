@@ -316,7 +316,7 @@
     "villains": [
       {
         "name": "Emissaries_of_Evil",
-        "displayName": "Emissaries of Evil"
+        "displayName": "Emissaries Of Evil"
       },
       {
         "name": "Four_Horsemen",
@@ -332,7 +332,7 @@
       },
       {
         "name": "Streets_of_New_York",
-        "displayName": "Streets of New York"
+        "displayName": "Streets Of New York"
       },
       {
         "name": "Underworld",
@@ -370,7 +370,7 @@
             }
           }
         },
-        "displayName": "Detonate the Helicarrier"
+        "displayName": "Detonate The Helicarrier"
       },
       {
         "name": "Massive_Earthquake_Generator",
@@ -436,7 +436,7 @@
             "addExtra": 1
           }
         },
-        "displayName": "Steal the Weaponized Plutonium"
+        "displayName": "Steal The Weaponized Plutonium"
       },
       {
         "name": "Transform_Citizens_Into_Demons",
