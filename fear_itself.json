@@ -4,35 +4,35 @@
         "name": "Fear Itself",
         "heroes": [
             {
-                "name": "Greithoth, Breaker of Willss",
+                "name": "Greithoth, Breaker Of Willss",
                 "team": "Foes Of Asgard",
                 "types": [
                     "Instint",
                     "Covert",
                     "Strength"
                 ],
-                "displayName": "Greithoth, Breaker of Wills"
+                "displayName": "Greithoth, Breaker Of Wills"
             },
             {
-                "name": "Kuurth, Breaker of Stone",
+                "name": "Kuurth, Breaker Of Stone",
                 "team": "Foes Of Asgard",
                 "types": [
                     "Ranged",
                     "Strength"
                 ],
-                "displayName": "Kuurth, Breaker of Stone"
+                "displayName": "Kuurth, Breaker Of Stone"
             },
             {
-                "name": "Nul, Breaker of Worlds",
+                "name": "Nul, Breaker Of Worlds",
                 "team": "Foes Of Asgard",
                 "types": [
                     "Instinct",
                     "Strength"
                 ],
-                "displayName": "Nul, Breaker of Worlds"
+                "displayName": "Nul, Breaker Of Worlds"
             },
             {
-                "name": "Skirn, Breaker of Men",
+                "name": "Skirn, Breaker Of Men",
                 "team": "Foes Of Asgard",
                 "types": [
                     "Covert",
@@ -40,10 +40,10 @@
                     "Ranged",
                     "Strength"
                 ],
-                "displayName": "Skirn, Breaker of Men"
+                "displayName": "Skirn, Breaker Of Men"
             },
             {
-                "name": "Nerkkod, Breaker of Oceans",
+                "name": "Nerkkod, Breaker Of Oceans",
                 "team": "Foes Of Asgard",
                 "types": [
                     "Instinct",
@@ -51,7 +51,7 @@
                     "Ranged",
                     "Covert"
                 ],
-                "displayName": "Nerkkod, Breaker of Oceans"
+                "displayName": "Nerkkod, Breaker Of Oceans"
             },
             {
                 "name": "Skadi",
@@ -122,6 +122,7 @@
                                 "1": {
                                     "schemeTwists": 8,
                                     "notes": [
+                                        "Shuffle a 'Betrayal Deck' of 3 Bindings per player and a 9th Twist.",
                                         "Not recommended for solo play."
                                     ]
                                 },
