@@ -4,10 +4,10 @@
         "name": "Fear Itself",
         "heroes": [
             {
-                "name": "Greithoth, Breaker Of Willss",
+                "name": "Greithoth, Breaker Of Wills",
                 "team": "Foes Of Asgard",
                 "types": [
-                    "Instint",
+                    "Instinct",
                     "Covert",
                     "Strength"
                 ],
@@ -105,7 +105,7 @@
             {
                 "name": "Last Stand at Avengers Tower",
                 "schemeTwists": 6,
-                "displayName": "Last Stand at Avengers Tower"
+                "displayName": "Last Stand At Avengers Tower"
             },
             {
                 "name": "Fear Itself",
@@ -118,17 +118,12 @@
                     "conditionalRules": [
                         {
                             "parameter": "numberOfPlayers",
+                            "supportedPlayerCounts": [2, 3, 4, 5],
                             "conditions": {
-                                "1": {
-                                    "schemeTwists": 8,
-                                    "notes": [
-                                        "Shuffle a 'Betrayal Deck' of 3 Bindings per player and a 9th Twist.",
-                                        "Not recommended for solo play."
-                                    ]
-                                },
                                 "2-5": {
                                     "schemeTwists": 8,
                                     "notes": [
+                                        "2+ players only.",
                                         "Shuffle a 'Betrayal Deck' of 3 Bindings per player and a 9th Twist."
                                     ]
                                 }
