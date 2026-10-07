@@ -274,7 +274,7 @@
       },
       {
         "name": "Red_Skull_Hydra_Overlord_2E",
-        "displayName": "Red Skull, HYDRA Overlord",
+        "displayName": "Red Skull, Hydra Overlord",
         "postRandomization": {
           "conditionalRules": [
             {
@@ -284,7 +284,7 @@
                   "villains": {
                     "forceExcludeMatching": {
                       "matching": [
-                        "HYDRA"
+                        "HYDRA", "Hydra"
                       ]
                     },
                     "priority": 10
@@ -294,7 +294,7 @@
                   "villains": {
                     "forceIncludeMatching": {
                       "matching": [
-                        "HYDRA"
+                        "HYDRA", "Hydra"
                       ]
                     },
                     "priority": 10
@@ -317,7 +317,7 @@
       },
       {
         "name": "Hydra_2E",
-        "displayName": "HYDRA"
+        "displayName": "Hydra"
       },
       {
         "name": "Masters_Of_Evil_2E",
