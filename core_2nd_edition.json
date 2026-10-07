@@ -1,7 +1,7 @@
 {
   "expansion": {
     "id": "core_2nd_edition",
-    "name": "Core Set 2nd Edition",
+    "name": "Core 2nd Edition",
     "heroes": [
       {
         "name": "Black_Widow_2E",
@@ -185,17 +185,23 @@
               "conditions": {
                 "1": {
                   "villains": {
-                    "forceExclude": [
-                      "Sinister_Spider-Foes_2E",
-                      "Sinister_Syndicate_2E"
-                    ],
+                    "forceExcludeMatching": {
+                      "matching": [
+                        "Sinister"
+                      ]
+                    },
                     "priority": 10
                   }
                 },
                 "2-5": {
-                  "notes": [
-                    "Always Leads: Any \"Sinister\" Villain Group (Sinister Spider-Foes or Sinister Syndicate)."
-                  ]
+                  "villains": {
+                    "forceIncludeMatching": {
+                      "matching": [
+                        "Sinister"
+                      ]
+                    },
+                    "priority": 10
+                  }
                 }
               }
             }
@@ -241,17 +247,23 @@
               "conditions": {
                 "1": {
                   "villains": {
-                    "forceExclude": [
-                      "Brotherhood_Of_Mutants_2E"
-                    ],
+                    "forceExcludeMatching": {
+                      "matching": [
+                        "Brotherhood",
+                        "X-Men"
+                      ]
+                    },
                     "priority": 10
                   }
                 },
                 "2-5": {
                   "villains": {
-                    "forceInclude": [
-                      "Brotherhood_Of_Mutants_2E"
-                    ],
+                    "forceIncludeMatching": {
+                      "matching": [
+                        "Brotherhood",
+                        "X-Men"
+                      ]
+                    },
                     "priority": 10
                   }
                 }
@@ -262,7 +274,7 @@
       },
       {
         "name": "Red_Skull_Hydra_Overlord_2E",
-        "displayName": "Red Skull, Hydra Overlord",
+        "displayName": "Red Skull, HYDRA Overlord",
         "postRandomization": {
           "conditionalRules": [
             {
@@ -270,17 +282,21 @@
               "conditions": {
                 "1": {
                   "villains": {
-                    "forceExclude": [
-                      "Hydra_2E"
-                    ],
+                    "forceExcludeMatching": {
+                      "matching": [
+                        "HYDRA"
+                      ]
+                    },
                     "priority": 10
                   }
                 },
                 "2-5": {
                   "villains": {
-                    "forceInclude": [
-                      "Hydra_2E"
-                    ],
+                    "forceIncludeMatching": {
+                      "matching": [
+                        "HYDRA"
+                      ]
+                    },
                     "priority": 10
                   }
                 }
@@ -301,7 +317,7 @@
       },
       {
         "name": "Hydra_2E",
-        "displayName": "Hydra"
+        "displayName": "HYDRA"
       },
       {
         "name": "Masters_Of_Evil_2E",
@@ -340,6 +356,12 @@
       {
         "name": "Sentinel_2E",
         "displayName": "Sentinel"
+      }
+    ],
+    "boards": [
+      {
+        "name": "Hero_2E",
+        "displayName": "Hero"
       }
     ],
     "schemes": [
@@ -439,10 +461,7 @@
         "name": "Portals_To_The_Dark_Dimension_2E",
         "displayName": "Portals To The Dark Dimension",
         "postRandomization": {
-          "schemeTwists": 7,
-          "notes": [
-            "Each Twist is a \"Dark Portal.\""
-          ]
+          "schemeTwists": 7
         }
       },
       {
@@ -510,8 +529,27 @@
         "displayName": "The Legacy Virus",
         "postRandomization": {
           "schemeTwists": 9,
-          "notes": [
-            "Wound Deck holds 6 Wounds per player."
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "wounds": 6
+                },
+                "2": {
+                  "wounds": 12
+                },
+                "3": {
+                  "wounds": 18
+                },
+                "4": {
+                  "wounds": 24
+                },
+                "5": {
+                  "wounds": 30
+                }
+              }
+            }
           ]
         }
       },
