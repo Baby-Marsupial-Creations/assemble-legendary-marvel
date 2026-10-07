@@ -335,11 +335,13 @@
         "postRandomization": {
           "schemeTwists": 8,
           "bystanders": 12,
-            "boards": {
-                "forceInclude": [
-                    "Hero"
-                ]
-              }
+          "boards": {
+            "forceIncludeMatching": {
+              "matching": [
+                "Hero"
+              ]
+            }
+          }
         },
         "displayName": "Midtown Bank Robbery"
       },
@@ -405,112 +407,116 @@
                     "priority": 15
                   },
                   "boards": {
-                    "forceInclude": [
-                      "Hero"
-                    ],
-                    "priority": 10
-                  }
-                },
-                "2-4": {
-                  "heroes": {
-                    "addExtra": 1
-                  },
-                  "villains": {
-                    "forceInclude": [
-                      "Skrulls"
-                    ],
-                    "priority": 15
-                  },
-                  "boards": {
-                    "forceInclude": [
-                      "Hero"
-                    ],
-                    "priority": 10
-                  }
-                },
-                "5": {
-                  "villains": {
-                    "forceInclude": [
-                      "Skrulls"
-                    ],
-                    "priority": 15
-                  },
-                  "boards": {
-                    "forceInclude": [
-                      "Hero"
-                    ],
-                    "priority": 10
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "displayName": "Secret Invasion Of The Skrull Shapeshifters"
-      },
-      {
-        "name": "Super_Hero_Civil_War",
-        "postRandomization": {
-          "schemeTwists": 8,
-          "conditionalRules": [
-            {
-              "parameter": "numberOfPlayers",
-              "conditions": {
-                "1-3": {
-                  "schemeTwists": 8
-                },
-                "4-5": {
-                  "schemeTwists": 5
-                }
-              }
-            },
-            {
-              "parameter": "numberOfPlayers",
-              "conditions": {
-                "1": {
-                  "heroes": {
-                    "set": {
-                      "count": 3
+                    "forceIncludeMatching": {
+                      "matching": [
+                        "Hero"
+                      ]
                     }
                   },
-                  "notes": [
-                    "Not recommended for solo play."
-                  ]
-                },
-                "2": {
-                  "heroes": {
-                    "set": {
-                      "count": 4
+                  "2-4": {
+                    "heroes": {
+                      "addExtra": 1
+                    },
+                    "villains": {
+                      "forceInclude": [
+                        "Skrulls"
+                      ],
+                      "priority": 15
+                    },
+                    "boards": {
+                      "forceIncludeMatching": {
+                        "matching": [
+                          "Hero"
+                        ]
+                      },
+                      "priority": 10
                     }
-                  }
-                },
-                "3-4": {
-                  "heroes": {
-                    "set": {
-                      "count": 5
-                    }
-                  }
-                },
-                "5": {
-                  "heroes": {
-                    "set": {
-                      "count": 6
+                  },
+                  "5": {
+                    "villains": {
+                      "forceInclude": [
+                        "Skrulls"
+                      ],
+                      "priority": 15
+                    },
+                    "boards": {
+                      "forceIncludeMatching": {
+                        "matching": [
+                          "Hero"
+                        ]
+                      },
+                      "priority": 10
                     }
                   }
                 }
               }
-            }
-          ]
+            ]
+          },
+          "displayName": "Secret Invasion Of The Skrull Shapeshifters"
         },
-        "displayName": "Super Hero Civil War"
-      },
-      {
-        "name": "Unleash_The_Power_Of_The_Cosmic_Cube",
-        "postRandomization": {
-          "schemeTwists": 8
+        {
+          "name": "Super_Hero_Civil_War",
+          "postRandomization": {
+            "schemeTwists": 8,
+            "conditionalRules": [
+              {
+                "parameter": "numberOfPlayers",
+                "conditions": {
+                  "1-3": {
+                    "schemeTwists": 8
+                  },
+                  "4-5": {
+                    "schemeTwists": 5
+                  }
+                }
+              },
+              {
+                "parameter": "numberOfPlayers",
+                "conditions": {
+                  "1": {
+                    "heroes": {
+                      "set": {
+                        "count": 3
+                      }
+                    },
+                    "notes": [
+                      "Not recommended for solo play."
+                    ]
+                  },
+                  "2": {
+                    "heroes": {
+                      "set": {
+                        "count": 4
+                      }
+                    }
+                  },
+                  "3-4": {
+                    "heroes": {
+                      "set": {
+                        "count": 5
+                      }
+                    }
+                  },
+                  "5": {
+                    "heroes": {
+                      "set": {
+                        "count": 6
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Super Hero Civil War"
         },
-        "displayName": "Unleash The Power Of The Cosmic Cube"
-      }
-    ]
+        {
+          "name": "Unleash_The_Power_Of_The_Cosmic_Cube",
+          "postRandomization": {
+            "schemeTwists": 8
+          },
+          "displayName": "Unleash The Power Of The Cosmic Cube"
+        }
+      ]
+    }
   }
-}
