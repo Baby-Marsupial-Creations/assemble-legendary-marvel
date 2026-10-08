@@ -172,9 +172,32 @@
               "count": 4
             }
           },
-          "notes": [
-            "Use 4 Heroes in the Hero Deck, plus 4 other Heroes to make a \"Past Hero Deck.\" Above the board, make room for an alternate city called \"The Past.\" It has the normal 5 spaces, from Sewers to Bridge.",
-            "The Past has its own \"Past HQ\" filled by the \"Past Hero Deck.\" To start, play as if \"The Past\" city, HQ, and Hero Deck don't exist."
+          "dynamicNotes": [
+            {
+              "template": "Use 4 Heroes in the Hero Deck, plus 4 other Heroes ({pastHero1}, {pastHero2}, {pastHero3}, {pastHero4}) to make a \"Past Hero Deck.\" Above the board, make room for an alternate city called \"The Past.\" It has the normal 5 spaces, from Sewers to Bridge.",
+              "variables": {
+                "pastHero1": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                },
+                "pastHero2": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                },
+                "pastHero3": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                },
+                "pastHero4": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                }
+              }
+            },
+            {
+              "template": "The Past has its own \"Past HQ\" filled by the \"Past Hero Deck.\" To start, play as if \"The Past\" city, HQ, and Hero Deck don't exist.",
+              "variables": {}
+            }
           ]
         }
       },

@@ -90,9 +90,12 @@
         "name": "Killmonger_The_Betrayer",
         "displayName": "Killmonger, The Betrayer",
         "postRandomization": {
-          "notes": [
-            "Always include Killmonger as one of the Heroes."
-          ],
+          "heroes": {
+            "forceInclude": [
+              "Killmonger_Spec_Ops"
+            ],
+            "priority": 10
+          },
           "conditionalRules": [
             {
               "parameter": "numberOfPlayers",
@@ -243,8 +246,16 @@
             ],
             "priority": 15
           },
-          "notes": [
-            "Add 8 random cards from an extra Hero to the Villain Deck."
+          "dynamicNotes": [
+            {
+              "template": "Add 8 random cards from an extra Hero ({extraHero}) to the Villain Deck.",
+              "variables": {
+                "extraHero": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                }
+              }
+            }
           ],
           "conditionalRules": [
             {

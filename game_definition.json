@@ -347,9 +347,8 @@
               "type": "asset"
             },
             "Guardians Of The Multiverse": {
-              "iconData": "public",
-              "type": "material",
-              "color": "#00897B"
+              "iconData": "team-icons/guardiansofthemultiverse192.png",
+              "type": "asset"
             },
             "Unaffiliated": {
               "iconData": "shield",
