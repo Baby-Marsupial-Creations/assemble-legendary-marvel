@@ -346,6 +346,11 @@
               "iconData": "team-icons/foesofasgard192.png",
               "type": "asset"
             },
+            "Guardians Of The Multiverse": {
+              "iconData": "public",
+              "type": "material",
+              "color": "#00897B"
+            },
             "Unaffiliated": {
               "iconData": "shield",
               "type": "material",
