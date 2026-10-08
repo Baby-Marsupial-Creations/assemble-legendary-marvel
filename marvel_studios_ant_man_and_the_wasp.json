@@ -233,6 +233,11 @@
         "displayName": "Siphon Energy From The Quantum Realm",
         "postRandomization": {
           "schemeTwists": 9,
+          "villains": {
+            "forceExclude": [
+              "Quantum_Realm"
+            ]
+          },
           "notes": [
             "Set aside the \"Quantum Realm\" Villain Group as an extra group. Shuffle its Ambush Scheme into the Villain Deck."
           ]
