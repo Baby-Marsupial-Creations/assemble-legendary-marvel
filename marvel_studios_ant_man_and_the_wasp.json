@@ -1,7 +1,7 @@
 {
   "expansion": {
     "id": "marvel_studios_ant_man_and_the_wasp",
-    "name": "Marvel Studios' Ant-Man and the Wasp",
+    "name": "Marvel Studios Ant-Man and the Wasp",
     "heroes": [
       {
         "name": "Ant_Army",
@@ -142,8 +142,16 @@
         "name": "Kang_Quantum_Conqueror",
         "displayName": "Kang, Quantum Conqueror",
         "postRandomization": {
-          "notes": [
-            "Set aside the Villains from an extra Villain Group as \"Timeline Variants.\""
+          "dynamicNotes": [
+            {
+              "template": "Set aside the Villains from an extra Villain Group ({selectedVillain}) as \"Timeline Variants.\"",
+              "variables": {
+                "selectedVillain": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "villains"
+                }
+              }
+            }
           ],
           "conditionalRules": [
             {
