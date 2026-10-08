@@ -217,6 +217,17 @@
         "displayName": "Auction Shrink Tech To Highest Bidder",
         "postRandomization": {
           "schemeTwists": 11,
+          "dynamicNotes": [
+            {
+              "template": "Set aside the Villains from an extra Villain Group ({selectedVillain}) as \"Timeline Variants.\"",
+              "variables": {
+                "selectedVillain": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "villains"
+                }
+              }
+            }
+          ],
           "notes": [
             "Set aside all 14 cards of a random extra Hero that has any Size-Changing cards as \"Shrink Tech.\""
           ]
