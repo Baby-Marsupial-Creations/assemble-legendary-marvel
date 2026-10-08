@@ -91,9 +91,11 @@
         "displayName": "Killmonger, The Betrayer",
         "postRandomization": {
           "heroes": {
-            "forceInclude": [
-              "Killmonger_Spec_Ops"
-            ],
+            "forceIncludeMatching": {
+              "matching": [
+                "Killmonger"
+              ]
+            },
             "priority": 10
           },
           "conditionalRules": [
