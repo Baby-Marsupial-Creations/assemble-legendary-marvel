@@ -209,7 +209,7 @@
         "name": "Breach_The_Nexus_Of_All_Realities",
         "displayName": "Breach The Nexus Of All Realities",
         "postRandomization": {
-          "schemeTwists": 2,
+          "schemeTwists": 0,
           "notes": [
             "Stack each Villain Group separately face down as its own \"Reality.\" Add 2 Twists to each Reality.",
             "Shuffle together all the Henchmen, Master Strikes, and Bystanders for your player count and randomly distribute them amongst all the Realities, as evenly as possible. Shuffle each Reality separately."
