@@ -135,9 +135,6 @@
         "name": "Sacrifice_For_The_Soul_Stone_Infinity_Saga",
         "displayName": "Sacrifice For The Soul Stone",
         "postRandomization": {
-          "notes": [
-            "Twists equal to the number of players plus 4."
-          ],
           "conditionalRules": [
             {
               "parameter": "numberOfPlayers",
