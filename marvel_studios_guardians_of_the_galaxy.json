@@ -152,12 +152,14 @@
                   "villains": {
                     "set": {
                       "count": 2
-                    }
+                    },
+                    "priority": 5
                   },
                   "henchmen": {
                     "set": {
                       "count": 2
-                    }
+                    },
+                    "priority": 5
                   },
                   "notes": [
                     "1 player: 2 Henchmen per group."
@@ -167,48 +169,56 @@
                   "villains": {
                     "set": {
                       "count": 4
-                    }
+                    },
+                    "priority": 5
                   },
                   "henchmen": {
                     "set": {
                       "count": 2
-                    }
+                    },
+                    "priority": 5
                   }
                 },
                 "3": {
                   "villains": {
                     "set": {
                       "count": 6
-                    }
+                    },
+                    "priority": 5
                   },
                   "henchmen": {
                     "set": {
                       "count": 2
-                    }
+                    },
+                    "priority": 5
                   }
                 },
                 "4": {
                   "villains": {
                     "set": {
                       "count": 6
-                    }
+                    },
+                    "priority": 5
                   },
                   "henchmen": {
                     "set": {
                       "count": 4
-                    }
+                    },
+                    "priority": 5
                   }
                 },
                 "5": {
                   "villains": {
                     "set": {
                       "count": 8
-                    }
+                    },
+                    "priority": 5
                   },
                   "henchmen": {
                     "set": {
                       "count": 4
-                    }
+                    },
+                    "priority": 5
                   }
                 }
               }
