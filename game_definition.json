@@ -294,6 +294,10 @@
               "iconData": "team-icons/gotg192.png",
               "type": "asset"
             },
+            "Guardians Of The Galaxy/Unaffiliated": {
+              "iconData": "team-icons/gotg192.png",
+              "type": "asset"
+            },
             "Inhumans": {
               "iconData": "team-icons/inhumans192.png",
               "type": "asset"
