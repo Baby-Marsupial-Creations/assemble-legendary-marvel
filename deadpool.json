@@ -1,0 +1,211 @@
+{
+    "expansion": {
+        "id": "deadpool",
+        "name": "Deadpool",
+        "heroes": [
+            {
+                "name": "Bob. Agent of Hydra",
+                "team": "HYDRA",
+                "types": [
+                    "Tech",
+                    "Covert"
+                ],
+                "displayName": "Bob. Agent of Hydra"
+            },
+            {
+                "name": "Deadpool_deadpool_expansion",
+                "team": "Mercs for Money",
+                "types": [
+                    "Tech",
+                    "Instinct",
+                    "Covert",
+                    "Strength"
+                ],
+                "displayName": "Deadpool"
+            },
+            {
+                "name": "Slapstick",
+                "team": "Mercs for Money",
+                "types": [
+                    "Ranged",
+                    "Strength"
+                ],
+                "displayName": "Slapstick"
+            },
+            {
+                "name": "Solo",
+                "team": "Mercs for Money",
+                "types": [
+                    "Tech",
+                    "Instinct"
+                ],
+                "displayName": "Solo"
+            },
+            {
+                "name": "Stingray",
+                "team": "Mercs for Money",
+                "types": [
+                    "Ranged",
+                    "Tech"
+                ],
+                "displayName": "Stingray"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Evil Deadpool",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Evil Deadpool Corpse"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Evil Deadpool Corpse"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Evil Deadpool"
+            },
+            {
+                "name": "Macho Gomez",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Deadpool's 'Friends'"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Deadpool's 'Friends'"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Macho Gomez"
+            }
+        ],
+        "villains": [
+            {
+                "name": "Evil Deadpool Corpse",
+                "displayName": "Evil Deadpool Corpse"
+            },
+            {
+                "name": "Deadpool's 'Friends'",
+                "displayName": "Deadpool's 'Friends'"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Deadpool_Kills_The_Marvel_Universe",
+                "displayName": "Deadpool Kills the Marvel Universe",
+                "postRandomization": {
+                    "heroes": {
+                        "forceInclude": [
+                            "Deadpool_deadpool_expansion"
+                        ],
+                        "priority": 10
+                    },
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "schemeTwists": 6
+                                },
+                                "2": {
+                                    "schemeTwists": 6,
+                                    "heroes": {
+                                        "set": {
+                                            "count": 4
+                                        }
+                                    }
+                                },
+                                "3": {
+                                    "schemeTwists": 6
+                                },
+                                "4-5": {
+                                    "schemeTwists": 5
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Deadpool_Wants_A_Chimichanga",
+                "displayName": "Deadpool Wants a Chimichanga",
+                "postRandomization": {
+                    "schemeTwists": 6,
+                    "bystanders": 12,
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "3-5": {
+                                    "villains": {
+                                        "addExtra": 1
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "notes": [
+                        "All Bystanders represent Chimichangas, including special Bystanders."
+                    ]
+                }
+            },
+            {
+                "name": "Deadpool_Writes_A_Scheme",
+                "displayName": "Deadpool Writes a Scheme",
+                "postRandomization": {
+                    "schemeTwists": 6,
+                    "heroes": {
+                        "forceInclude": [
+                            "Deadpool_deadpool_expansion"
+                        ],
+                        "priority": 10
+                    }
+                }
+            },
+            {
+                "name": "Everybody_Hates_Deadpool",
+                "displayName": "Everybody Hates Deadpool",
+                "postRandomization": {
+                    "schemeTwists": 6,
+                    "notes": [
+                        "Use at least 1 Mercenary Hero."
+                    ]
+                }
+            }
+        ]
+    }
+}
+
+
