@@ -138,7 +138,8 @@
           "heroes": {
             "set": {
               "count": 7
-            }
+            },
+            "forceIncludeMatching": { "where": { "team": ["Guardians Of The Galaxy"] } }
           },
           "notes": [
             "Include at least one Guardians of the Galaxy Hero.",
