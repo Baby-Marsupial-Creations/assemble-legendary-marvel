@@ -354,6 +354,10 @@
               "iconData": "team-icons/guardiansofthemultiverse192.png",
               "type": "asset"
             },
+            "New Warriors": {
+              "iconData": "team-icons/newwarriors192.png",
+              "type": "asset"
+            },
             "Unaffiliated": {
               "iconData": "shield",
               "type": "material",
