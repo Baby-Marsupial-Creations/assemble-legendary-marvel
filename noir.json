@@ -1,0 +1,161 @@
+{
+    "expansion": {
+        "id": "noir",
+        "name": "Noir",
+        "heroes": [
+            {
+                "name": "Angel Noir",
+                "team": "X-Men",
+                "types": [
+                    "Instinct",
+                    "Strength",
+                    "Covert"
+                ],
+                "displayName": "Angel Noir"
+            },
+            {
+                "name": "Daredevil Noir",
+                "team": "Marvel Knights",
+                "types": [
+                    "Instinct",
+                    "Covert"
+                ],
+                "displayName": "Daredevil Noir"
+            },
+            {
+                "name": "Iron Man Noir",
+                "team": "Avengers",
+                "types": [
+                    "Tech",
+                    "Instinct"
+                ],
+                "displayName": "Iron Man Noir"
+            },
+            {
+                "name": "Luke Cage Noir",
+                "team": "Marvel Knights",
+                "types": [
+                    "Strength",
+                    "Covert"
+                ],
+                "displayName": "Luke Cage Noir"
+            },
+            {
+                "name": "Spider-Man Noir",
+                "team": "Spider Friends",
+                "types": [
+                    "Ranged",
+                    "Tech",
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Spider-Man Noir"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Charles Xavier, Professer of Crime",
+                "displayName": "Charles Xavier, Professer of Crime",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "X-Men Noir"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "X-Men Noir"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "The Goblin, Underworld Boss",
+                "displayName": "The Goblin, Underworld Boss",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Goblin's Freak Show"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Goblin's Freak Show"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "villains": [
+            {
+                "name": "Goblin's Freak Show",
+                "displayName": "Goblin's Freak Show"
+            },
+            {
+                "name": "X-Men Noir",
+                "displayName": "X-Men Noir"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Find the Split Personality Killer",
+                "schemeTwists": 8,
+                "displayName": "Find the Split Personality Killer"
+            },
+            {
+                "name": "Five_Families_Of_Crime",
+                "displayName": "Five Families of Crime",
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "villains": {
+                        "addExtra": 2
+                    },
+                    "notes": [
+                        "Split the Villain Deck into 5 shuffled decks, one above each city space."
+                    ]
+                }
+            },
+            {
+                "name": "Hidden_Heart_Of_Darkness",
+                "displayName": "Hidden Heart of Darkness",
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "notes": [
+                        "Shuffle the Mastermind Tactics into the Villain Deck as Villains."
+                    ]
+                }
+            },
+            {
+                "name": "Silence the Witnesses",
+                "schemeTwists":6,
+                "displayName": "Silence the Witnesses"
+            }
+        ]
+    }
+}
