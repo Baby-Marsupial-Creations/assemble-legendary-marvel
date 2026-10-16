@@ -142,7 +142,6 @@
             "forceIncludeMatching": { "where": { "team": ["Guardians Of The Galaxy"] } }
           },
           "notes": [
-            "Include at least one Guardians of the Galaxy Hero.",
             "Use only half the cards from each of those groups, randomly & secretly."
           ],
           "conditionalRules": [
@@ -163,7 +162,7 @@
                     "priority": 5
                   },
                   "notes": [
-                    "1 player: 2 Henchmen per group."
+                    "Use only 2 Henchmen cards per Henchmen group."
                   ]
                 },
                 "2": {
