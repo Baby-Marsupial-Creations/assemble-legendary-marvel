@@ -358,6 +358,10 @@
               "iconData": "team-icons/newwarriors192.png",
               "type": "asset"
             },
+            "Mercs for Money": {
+              "iconData": "team-icons/mercsformoney192.png",
+              "type": "asset"
+            },
             "Unaffiliated": {
               "iconData": "shield",
               "type": "material",
