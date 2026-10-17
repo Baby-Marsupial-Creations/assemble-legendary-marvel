@@ -1,0 +1,467 @@
+{
+    "expansion": {
+        "id": "X-Men",
+        "name": "X-Men",
+        "heroes": [
+            {
+                "name": "Aurora and Northstar",
+                "team": "X-Men",
+                "types": [
+                    "Covert",
+                    "Strength",
+                    "Ranged",
+                    "Instinct"
+                ],
+                "displayName": "Aurora and Northstar"
+            },
+            {
+                "name": "Banshee",
+                "team": "X-Men",
+                "types": [
+                    "Covert",
+                    "Ranged"
+                ],
+                "displayName": "Banshee"
+            },
+            {
+                "name": "Beast",
+                "team": "X-Men",
+                "types": [
+                    "Tech",
+                    "Strength"
+                ],
+                "displayName": "Beast"
+            },
+            {
+                "name": "Cannonball",
+                "team": "X-Men",
+                "types": [
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Cannonball"
+            },
+            {
+                "name": "Colossus and Wolverine",
+                "team": "X-Men",
+                "types": [
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Colossus and Wolverine"
+            },
+            {
+                "name": "Dazzler",
+                "team": "X-Men",
+                "types": [
+                    "Instinct",
+                    "Ranged",
+                    "Tech"
+                ],
+                "displayName": "Dazzler"
+            },
+            {
+                "name": "Havok",
+                "team": "X-Men",
+                "types": [
+                    "Ranged",
+                    "Tech"
+                ],
+                "displayName": "Havok"
+            },
+            {
+                "name": "Jubilee",
+                "team": "X-Men",
+                "types": [
+                    "Covert",
+                    "Ranged",
+                    "Instinct"
+                ],
+                "displayName": "Jubilee"
+            },
+            {
+                "name": "Kitty Pryde",
+                "team": "X-Men",
+                "types": [
+                    "Instinct",
+                    "Covert",
+                    "Tech",
+                    "Ranged"
+                ],
+                "displayName": "Kitty Pryde"
+            },
+            {
+                "name": "Legion",
+                "team": "X-Men",
+                "types": [
+                    "Covert",
+                    "Ranged",
+                    "Tech"
+                ],
+                "displayName": "Legion"
+            },
+            {
+                "name": "Longshot",
+                "team": "X-Men",
+                "types": [
+                    "Instinct",
+                    "Tech",
+                    "Covert"
+                ],
+                "displayName": "Longshot"
+            },
+            {
+                "name": "Phoenix",
+                "team": "X-Men",
+                "types": [
+                    "Strength",
+                    "Ranged",
+                    "Covert"
+                ],
+                "displayName": "Phoenix"
+            },
+            {
+                "name": "Polaris",
+                "team": "X-Men",
+                "types": [
+                    "Covert",
+                    "Ranged"
+                ],
+                "displayName": "Polaris"
+            },
+            {
+                "name": "Psylocke",
+                "team": "X-Men",
+                "types": [
+                    "Instinct",
+                    "Covert"
+                ],
+                "displayName": "Psylocke"
+            },
+            {
+                "name": "X-23",
+                "team": "X-Men",
+                "types": [
+                    "Tech",
+                    "Instinct",
+                    "Covert"
+                ],
+                "displayName": "X-23"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Arcade",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Murderworld"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Murderworld"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Arcade"
+            },
+            {
+                "name": "Dark Phoenix",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Hellfire Club"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Hellfire Club"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Dark Phoenix"
+            },
+            {
+                "name": "Deathbird",
+                "displayName": "Deathbird",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Shi'ar Imperial Guard"
+                                        ],
+                                        "priority": 10
+                                    },
+                                    "henchmen": {
+                                        "forceExclude": [
+                                            "Shi'ar Death Commandors"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Shi'ar Imperial Guard"
+                                        ],
+                                        "priority": 10
+                                    },
+                                    "henchmen": {
+                                        "forceInclude": [
+                                            "Shi'ar Death Commandors"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Mojo",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Mojoverse"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Mojoverse"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Mojo"
+            },
+            {
+                "name": "Onslaught",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Dark Descendents"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Dark Descendents"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Onslaught"
+            },
+            {
+                "name": "Shadow King",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Shadow-X"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Shadow-X"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Shadow King"
+            }
+        ],
+        "villains": [
+            {
+                "name": "Dark Descendents",
+                "displayName": "Dark Descendents"
+            },
+            {
+                "name": "Hellfire Club",
+                "displayName": "Hellfire Club"
+            },
+            {
+                "name": "Mojoverse",
+                "displayName": "Mojoverse"
+            },
+            {
+                "name": "Murderworld",
+                "displayName": "Murderworld"
+            },
+            {
+                "name": "Shadow-X",
+                "displayName": "Shadow-X"
+            },
+            {
+                "name": "Shi'ar Imperial Guard",
+                "displayName": "Shi'ar Imperial Guard"
+            },
+            {
+                "name": "Sisterhood of Mutants",
+                "displayName": "Sisterhood of Mutants"
+            }
+        ],
+        "henchmen": [
+            {
+                "name": "The Brood",
+                "displayName": "The Brood"
+            },
+            {
+                "name": "Hellfire Cult",
+                "displayName": "Hellfire Cult"
+            },
+            {
+                "name": "Sapien League",
+                "displayName": "Sapien League"
+            },
+            {
+                "name": "Shi'ar Death Commandors",
+                "displayName": "Shi'ar Death Commandors"
+            },
+            {
+                "name": "Shi'ar Patrol Craft",
+                "displayName": "Shi'ar Patrol Craft"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Alien_Brood_Encounters",
+                "displayName": "Alien Brood Encounters",
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "bystanders": 0,
+                    "notes": [
+                        "Add 10 Brood cards as extra Henchmen to the Villain Deck."
+                    ]
+                }
+            },
+            {
+                "name": "Anti_Mutant_Hatred",
+                "displayName": "Anti-Mutant Hatred",
+                "postRandomization": {
+                    "schemeTwists": 11,
+                    "notes": [
+                        "30 Wounds."
+                    ]
+                }
+            },
+            {
+                "name": "The_Dark_Phoenix_Saga",
+                "displayName": "The Dark Phoenix Saga",
+                "postRandomization": {
+                    "schemeTwists": 10,
+                    "villains": {
+                        "forceInclude": [
+                            "Hellfire Club"
+                        ],
+                        "priority": 20
+                    },
+                    "notes": [
+                        "Add 14 Jean Grey Hero cards to the Villain Deck."
+                    ]
+                }
+            },
+            {
+                "name": "Horror of Horrors",
+                "schemeTwists": 6,
+                "displayName": "Horror of Horrors"
+            },
+            {
+                "name": "Mutant_Hunting_Super_Sentinels",
+                "displayName": "Mutant-Hunting Super Sentinels",
+                "postRandomization": {
+                    "schemeTwists": 9,
+                    "notes": [
+                        "Include 10 Sentinels as extra Henchmen (or substitute another Henchmen Group)."
+                    ]
+                }
+            },
+            {
+                "name": "Nuclear Armageddon",
+                "schemeTwists": 5,
+                "displayName": "Nuclear Armageddon"
+            },
+            {
+                "name": "Televised_Deathtraps_Of_Mojoworld",
+                "displayName": "Televised Deathtraps of Mojoworld",
+                "postRandomization": {
+                    "schemeTwists": 11,
+                    "notes": [
+                        "6 Wounds per player in Wound Stack."
+                    ]
+                }
+            },
+            {
+                "name": "X-Men Danger Room Goes Berserk",
+                "schemeTwists": 8,
+                "displayName": "X-Men Danger Room Goes Berserk"
+            }
+        ]
+    }
+}
