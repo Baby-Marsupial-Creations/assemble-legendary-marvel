@@ -1,0 +1,171 @@
+{
+    "expansion": {
+        "id": "spider-man_homecoming",
+        "name": "Spider-Man Homecoming",
+        "heroes": [
+            {
+                "name": "Happy Hogan",
+                "team": "Unaffiliated",
+                "types": [
+                    "Instinct",
+                    "Tech"
+                ],
+                "displayName": "Happy Hogan"
+            },
+            {
+                "name": "Hightech Spider-Man",
+                "team": "Spider Friends",
+                "types": [
+                    "Covert",
+                    "Tech"
+                ],
+                "displayName": "Hightech Spider-Man"
+            },
+            {
+                "name": "Peter Parker, Homecoming",
+                "team": "Spider Friends",
+                "types": [
+                    "Instinct",
+                    "Covert",
+                    "Tech",
+                    "Strength"
+                ],
+                "displayName": "Peter Parker, Homecoming"
+            },
+            {
+                "name": "Peter's Allies",
+                "team": "Spider Friends",
+                "types": [
+                    "Covert",
+                    "Instinct"
+                ],
+                "displayName": "Peter's Allies"
+            },
+            {
+                "name": "Tony Stark",
+                "team": "Avengers",
+                "types": [
+                    "Tech",
+                    "Ranged"
+                ],
+                "displayName": "Tony Stark"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Adrian Toomes",
+                "displayName": "Adrian Toomes",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Salvagers"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Salvagers"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Vulture",
+                "displayName": "Vulture",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Vulture Tech"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Vulture Tech"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "villains": [
+            {
+                "name": "Salvagers",
+                "displayName": "Salvagers"
+            },
+            {
+                "name": "Vulture Tech",
+                "displayName": "Vulture Tech"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Distract_The_Hero",
+                "displayName": "Distract the Hero",
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "notes": [
+                        "Use at least 1 Spider-Friends Hero."
+                    ]
+                }
+            },
+            {
+                "name": "Explosion_At_The_Washington_Monument",
+                "displayName": "Explosion at the Washington Monument",
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "bystanders": 18,
+                    "notes": [
+                        "Shuffle 18 Bystanders and 14 Wounds, then deal them evenly into eight decks. Put these decks in a row, as Floors of the Washington Monument."
+                    ]
+                }
+            },
+            {
+                "name": "Ferry_Disaster",
+                "displayName": "Ferry Disaster",
+                "postRandomization": {
+                    "schemeTwists": 9,
+                    "notes": [
+                        "Put the Bystander Stack above the Sewers as the \"Ferry\"."
+                    ]
+                }
+            },
+            {
+                "name": "Scavenge_Alien_Weaponry",
+                "displayName": "Scavenge Alien Weaponry",
+                "postRandomization": {
+                    "schemeTwists": 7,
+                    "henchmen": {
+                        "addExtra": 1
+                    },
+                    "notes": [
+                        "Add an extra Henchmen Group of 10 cards as \"Smugglers\"."
+                    ]
+                }
+            }
+        ]
+    }
+}
