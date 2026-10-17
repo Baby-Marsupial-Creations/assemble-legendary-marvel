@@ -1,0 +1,449 @@
+{
+    "expansion": {
+        "id": "world_war_hulk",
+        "name": "World War Hulk",
+        "heroes": [
+            {
+                "name": "Amadeus Cho",
+                "team": "Champions",
+                "types": [
+                    "Strength",
+                    "Tech",
+                    "Instinct"
+                ],
+                "displayName": "Amedus Cho"
+            },
+            {
+                "name": "Bruce Banner",
+                "team": "Avengers",
+                "types": [
+                    "Tech",
+                    "Strength"
+                ],
+                "displayName": "Bruce Banner"
+            },
+            {
+                "name": "Caiera",
+                "team": "Warbound",
+                "types": [
+                    "Covert",
+                    "Strength",
+                    "Instinct"
+                ],
+                "displayName": "Caiera"
+            },
+            {
+                "name": "Gladiator Hulk",
+                "team": "Warbound",
+                "types": [
+                    "Strength",
+                    "Instinct"
+                ],
+                "displayName": "Gladiator Hulk"
+            },
+            {
+                "name": "Hiroim",
+                "team": "Warbound",
+                "types": [
+                    "Covert",
+                    "Strength",
+                    "Instinct"
+                ],
+                "displayName": "Hiroim"
+            },
+            {
+                "name": "Hulkbuster Iron Man",
+                "team": "Avengers",
+                "types": [
+                    "Strength",
+                    "Tech"
+                ],
+                "displayName": "Hulkbuster Iron Man"
+            },
+            {
+                "name": "Joe Fix-It, the Grey Hulk",
+                "team": "Crime Syndicate",
+                "types": [
+                    "Strength",
+                    "Covert",
+                    "Instinct"
+                ],
+                "displayName": "Joe Fix-It, the Grey Hulk"
+            },
+            {
+                "name": "Korg",
+                "team": "Warbound",
+                "types": [
+                    "Strength",
+                    "Covert"
+                ],
+                "displayName": "Korg"
+            },
+            {
+                "name": "Miek, the Unhived",
+                "team": "Warbound",
+                "types": [
+                    "Instinct",
+                    "Covert",
+                    "Strength"
+                ],
+                "displayName": "Miek, the Unhived"
+            },
+            {
+                "name": "Namora",
+                "team": "Champions",
+                "types": [
+                    "Ranged",
+                    "Covert",
+                    "Strength"
+                ],
+                "displayName": "Namora"
+            },
+            {
+                "name": "No Name, Brood Queen",
+                "team": "Warbound",
+                "types": [
+                    "Covert",
+                    "Strength",
+                    "Instinct"
+                ],
+                "displayName": "No Name, Brood Queen"
+            },
+            {
+                "name": "Rick Jones",
+                "team": "S.H.I.E.L.D.",
+                "types": [
+                    "Tech",
+                    "Instinct",
+                    "Ranged",
+                    "Strength",
+                    "Covert"
+                ],
+                "displayName": "Rick Jones"
+            },
+            {
+                "name": "Sentry",
+                "team": "Avengers",
+                "types": [
+                    "Covert",
+                    "Strength",
+                    "Ranged"
+                ],
+                "displayName": "Sentry"
+            },
+            {
+                "name": "She-Hulk",
+                "team": "Avengers",
+                "types": [
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "She-Hulk"
+            },
+            {
+                "name": "Skaar, Son of Hulk",
+                "team": "Avengers",
+                "types": [
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Skaar, Son of Hulk"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "General “Thunderbolt” Ross / Red Hulk",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Code Red"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Code Red"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "General “Thunderbolt” Ross / Red Hulk"
+            },
+            {
+                "name": "Illuminati, Secret Society",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Illuminati"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Illuminati"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Illuminati, Secret Society"
+            },
+            {
+                "name": "King Hulk, Sakaarson",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Warbound"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Warbound"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "King Hulk, Sakaarson"
+            },
+            {
+                "name": "M.O.D.O.K.",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Intelligencia"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Intelligencia"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "M.O.D.O.K."
+            },
+            {
+                "name": "The Red King",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Sakaar Imperial Guard"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Sakaar Imperial Guard"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "The Red King"
+            },
+            {
+                "name": "The Sentry / The Void",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Aspects of the Void"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Aspects of the Void"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "The Sentry / The Void"
+            }
+        ],
+        "villains": [
+            {
+                "name": "Aspects of the Void",
+                "displayName": "Aspects of the Void"
+            },
+            {
+                "name": "Code Red",
+                "displayName": "Code Red"
+            },
+            {
+                "name": "Illuminati",
+                "displayName": "Illuminati"
+            },
+            {
+                "name": "Intelligencia",
+                "displayName": "Intelligencia"
+            },
+            {
+                "name": "Sakaar Imperial Guard",
+                "displayName": "Sakaar Imperial Guard"
+            },
+            {
+                "name": "U-Foes",
+                "displayName": "U-Foes"
+            },
+            {
+                "name": "Warbound",
+                "displayName": "Warbound"
+            }
+        ],
+        "henchmen": [
+            {
+                "name": "Cytoplasm Spikes",
+                "displayName": "Cytoplasm Spikes"
+            },
+            {
+                "name": "Death's Heads",
+                "displayName": "Death's Heads"
+            },
+            {
+                "name": "Sakaaran Hivelings",
+                "displayName": "Sakaaran Hivelings"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Break_The_Planet_Asunder",
+                "displayName": "Break the Planet Asunder",
+                "schemeTwists": 9,
+                "postRandomization": {
+                    "heroes": {
+                        "set": {
+                            "count": 7
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Cytoplasm_Spike_Invasion",
+                "displayName": "Cytoplasm Spike Invasion",
+                "schemeTwists": 10,
+                "postRandomization": {
+                    "notes": [
+                        "Shuffle together 20 Bystanders and 10 Cytoplasm Spike Henchmen as an Infected Deck."
+                    ]
+                }
+            },
+            {
+                "name": "Fall_Of_The_Hulks",
+                "displayName": "Fall of the Hulks",
+                "schemeTwists": 10,
+                "postRandomization": {
+                    "notes": [
+                        "6 Wounds per player in Wound Stack.",
+                        "Use exactly two Heroes with 'Hulk' in their Hero Names."
+                    ]
+                }
+            },
+            {
+                "name": "Gladiator_Pits_Of_Sakaar",
+                "displayName": "Gladiator Pits of Sakaar",
+                "schemeTwists": 6
+            },
+            {
+                "name": "Mutating_Gamma_Rays",
+                "displayName": "Mutating Gamma Rays",
+                "schemeTwists": 7,
+                "postRandomization": {
+                    "notes": [
+                        "Take 14 cards from an extra Hero with 'Hulk' in its Hero Name. Put them in a face-up 'Mutation Pile.'"
+                    ]
+                }
+            },
+            {
+                "name": "Shoot_Hulk_Into_Space",
+                "displayName": "Shoot Hulk into Space",
+                "schemeTwists": 8,
+                "postRandomization": {
+                    "notes": [
+                        "Take 14 cards from an extra Hero with \"Hulk\" in its Hero Name. Shuffle them into a \"Hulk Deck.\""
+                    ]
+                }
+            },
+            {
+                "name": "Subjugate_With_Obedience_Disks",
+                "displayName": "Subjugate with Obedience Disks",
+                "schemeTwists": 11
+            },
+            {
+                "name": "World_War_Hulk",
+                "displayName": "World War Hulk",
+                "schemeTwists": 9,
+                "postRandomization": {
+                    "notes": [
+                        "Put three additional Masterminds out of play, \"Lurking.\" Each of the four Masterminds has two random Tactics."
+                    ]
+                }
+            }
+        ]
+    }
+}
