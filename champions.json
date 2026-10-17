@@ -1,0 +1,175 @@
+{
+    "expansion": {
+        "id": "champions",
+        "name": "Champions",
+        "heroes": [
+            {
+                "name": "Gwenpool",
+                "team": "Champions",
+                "types": [
+                    "Covert",
+                    "Instinct"
+                ],
+                "displayName": "Gwenpool"
+            },
+            {
+                "name": "Ms. Marvel",
+                "team": "Champions",
+                "types": [
+                    "Covert",
+                    "Strength"
+                ],
+                "displayName": "Ms. Marvel"
+            },
+            {
+                "name": "Nova",
+                "team": "Champions",
+                "types": [
+                    "Strength",
+                    "Ranged"
+                ],
+                "displayName": "Nova"
+            },
+            {
+                "name": "Totally Awesome Hulk",
+                "team": "Champions",
+                "types": [
+                    "Strength",
+                    "Tech"
+                ],
+                "displayName": "Totally Awesome Hulk"
+            },
+            {
+                "name": "Viv Vision",
+                "team": "Champions",
+                "types": [
+                    "Tech",
+                    "Ranged"
+                ],
+                "displayName": "Viv Vision"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Fin Fang Foom",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Monsters Unleashed"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Monsters Unleashed"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Fin Fang Foom"
+            },
+            {
+                "name": "Pagliacci",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Wrecking Crew"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Wrecking Crew"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Pagliacci"
+            }
+        ],
+        "villains": [
+            {
+                "name": "Monsters Unleashed",
+                "displayName": "Monsters Unleashed"
+            },
+            {
+                "name": "Wrecking Crew",
+                "displayName": "Wrecking Crew"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Clash_Of_The_Monsters_Unleashed",
+                "displayName": "Clash of the Monsters Unleashed",
+                "postRandomization": {
+                    "schemeTwists": 10,
+                    "notes": [
+                        "6 Wounds per player in the Wound Stack.",
+                        "Shuffle 8 Monsters Unleashed Villains into a face down \"Monster Pit\" deck."
+                    ]
+                }
+            },
+            {
+                "name": "Divide_And_Conquer",
+                "displayName": "Divide and Conquer",
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "heroes": {
+                        "set": {
+                            "count": 7
+                        }
+                    },
+                    "notes": [
+                        "Sort the Hero Deck by Hero Class: Strength, Instinct, Covert, Tech, and Ranged. (If a card has multiple Classes, break ties at random.) Put these 5 smaller, shuffled Hero Decks beneath the 5 HQ spaces."
+                    ]
+                }
+            },
+            {
+                "name": "Steal_All_Oxygen_On_Earth",
+                "displayName": "Steal All Oxygen on Earth",
+                "schemeTwists": 8,
+                "postRandomization": {
+                    "notes": [
+                        "The Oxygen Level starts at 8."
+                    ]
+                }
+            },
+            {
+                "name": "Hypnotize_Every_Human",
+                "displayName": "Hypnotize Every Human",
+                "postRandomization": {
+                    "schemeTwists": 8,
+                    "bystanders": 0,
+                    "henchmen": {
+                        "addExtra": 1
+                    },
+                    "notes": [
+                        "Put a Bystander from the Bystander Stack above each city space as a face down 2 Attack Hypno-Thrall Villain."
+                    ]
+                }
+            }
+        ]
+    }
+}
