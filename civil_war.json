@@ -18,6 +18,7 @@
                 "name": "Cloak & Dagger",
                 "team": "Marvel Knights",
                 "types": [
+                    "Covert",
                     "Ranged"
                 ],
                 "displayName": "Cloak & Dagger"
@@ -83,6 +84,7 @@
                 "name": "Patriot",
                 "team": "Avengers",
                 "types": [
+                    "Covert",
                     "Strength",
                     "Instinct",
                     "Tech"
@@ -102,7 +104,6 @@
                 "name": "Speedball",
                 "team": "New Warriors",
                 "types": [
-                    "Ranged",
                     "Covert",
                     "Ranged"
                 ],
@@ -118,14 +119,15 @@
                 "displayName": "Stature"
             },
             {
-                "name": "Storm, & Black Panther",
+                "name": "Storm & Black Panther",
                 "team": "Avengers",
                 "types": [
                     "Instinct",
+                    "Ranged",
                     "Tech",
                     "Covert"
                 ],
-                "displayName": "Storm, & Black Panther"
+                "displayName": "Storm & Black Panther"
             },
             {
                 "name": "Tigra",
@@ -166,7 +168,7 @@
                                 "2-5": {
                                     "villains": {
                                         "forceInclude": [
-                                            "Superman Registration Act"
+                                            "Superhuman Registration Act"
                                         ],
                                         "priority": 10
                                     }
@@ -174,7 +176,7 @@
                                 "1": {
                                     "villains": {
                                         "forceExclude": [
-                                            "Superman Registration Act"
+                                            "Superhuman Registration Act"
                                         ],
                                         "priority": 10
                                     }
@@ -224,7 +226,7 @@
                                 "2-5": {
                                     "villains": {
                                         "forceInclude": [
-                                            "S.H.I.E.L.D Elite"
+                                            "S.H.I.E.L.D. Elite"
                                         ],
                                         "priority": 10
                                     }
@@ -232,7 +234,7 @@
                                 "1": {
                                     "villains": {
                                         "forceExclude": [
-                                            "S.H.I.E.L.D Elite"
+                                            "S.H.I.E.L.D. Elite"
                                         ],
                                         "priority": 10
                                     }
@@ -253,7 +255,7 @@
                                 "2-5": {
                                     "villains": {
                                         "forceInclude": [
-                                            "Heroes for Hire"
+                                            "Heroes For Hire"
                                         ],
                                         "priority": 10
                                     }
@@ -261,7 +263,7 @@
                                 "1": {
                                     "villains": {
                                         "forceExclude": [
-                                            "Heroes for Hire"
+                                            "Heroes For Hire"
                                         ],
                                         "priority": 10
                                     }
@@ -312,36 +314,40 @@
                 "displayName": "Great Lake Avengers"
             },
             {
-                "name": "Heroes for Hire",
-                "displayName": "Heroes for Hire"
+                "name": "Heroes For Hire",
+                "displayName": "Heroes For Hire"
             },
             {
                 "name": "Registration Enforcers",
                 "displayName": "Registration Enforcers"
             },
             {
-                "name": "S.H.I.E.L.D Elite",
-                "displayName": "S.H.I.E.L.D Elite"
+                "name": "S.H.I.E.L.D. Elite",
+                "displayName": "S.H.I.E.L.D. Elite"
             },
             {
                 "name": "Thunderbolts",
                 "displayName": "Thunderbolts"
             },
             {
-                "name": "Superman Registration Act",
-                "displayName": "Superman Registration Act"
+                "name": "Superhuman Registration Act",
+                "displayName": "Superhuman Registration Act"
             }
         ],
         "henchmen": [
             {
-                "name": "Cape-Killers and Mandroids",
-                "displayName": "Cape-Killers and Mandroids"
+                "name": "Cape-Killers",
+                "displayName": "Cape-Killers"
+            },
+            {
+                "name": "Mandroids",
+                "displayName": "Mandroids"
             }
         ],
         "schemes": [
             {
                 "name": "Avengers_vs_X_Men",
-                "displayName": "Avengers vs. X-Men",
+                "displayName": "Avengers Vs. X-Men",
                 "postRandomization": {
                     "schemeTwists": 9,
                     "heroes": {
@@ -350,7 +356,7 @@
                         }
                     },
                     "notes": [
-                        "Select 3 Heroes from one Team and 3 Heroes from a different Team."
+                        "HOW DO I DO THIS ONE?Select 3 Heroes from one Team and 3 Heroes from a different Team."
                     ]
                 }
             },
@@ -394,7 +400,7 @@
             {
                 "name": "Nitro the Supervillain Threatens Crowds",
                 "schemeTwists": 8,
-                "displayName": "Nitro the Supervillain Threatens Crowds"
+                "displayName": "Nitro The Supervillain Threatens Crowds"
             },
             {
                 "name": "Predict_Future_Crime",
