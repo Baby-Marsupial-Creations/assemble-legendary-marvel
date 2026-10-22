@@ -362,6 +362,10 @@
               "iconData": "team-icons/mercsformoney192.png",
               "type": "asset"
             },
+            "Warbound": {
+              "iconData": "team-icons/warbound192.png",
+              "type": "asset"
+            },
             "Unaffiliated": {
               "iconData": "shield",
               "type": "material",
