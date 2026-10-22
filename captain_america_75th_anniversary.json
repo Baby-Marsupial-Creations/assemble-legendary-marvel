@@ -98,7 +98,7 @@
                                 "2-5": {
                                     "villains": {
                                         "forceInclude": [
-                                            "Masters of Evil (WWII)"
+                                            "Masters Of Evil (WWII)"
                                         ],
                                         "priority": 10
                                     }
@@ -106,7 +106,7 @@
                                 "1": {
                                     "villains": {
                                         "forceExclude": [
-                                            "Masters of Evil (WWII)"
+                                            "Masters Of Evil (WWII)"
                                         ],
                                         "priority": 10
                                     }
@@ -124,8 +124,8 @@
                 "displayName": "Zola's Creations"
             },
             {
-                "name": "Masters of Evil (WWII)",
-                "displayName": "Masters of Evil (WWII)"
+                "name": "Masters Of Evil (WWII)",
+                "displayName": "Masters Of Evil (WWII)"
             }
         ],
         "schemes": [
@@ -135,27 +135,26 @@
                 "displayName": "The Unbreakable Enigma Code"
             },
             {
-                "name": "Change the Outcome of World War II",
+                "name": "Change The Outcome Of World War II",
                 "schemeTwists": 7,
                 "postRandomization": {
                     "villains": {
                         "addExtra": 1
                     }
                 },
-                "displayName": "Change the Outcome of World War II"
+                "displayName": "Change the Outcome Of World War II"
             },
             {
-                "name": "Go Back in Time to Slay Heroes' Ancestors",
+                "name": "Go Back in Time To Slay Heroes' Ancestors",
                 "schemeTwists": 9,
                 "postRandomization": {
-                    "schemeTwists": 7,
                     "heroes": {
                         "set": {
-                            "count": 7
+                            "count": 8
                         }
                     }
                 },
-                "displayName": "Go Back in Time to Slay Heroes' Ancestors"
+                "displayName": "Go Back In Time To Slay Heroes' Ancestors"
             },
             {
                 "name": "Brainwash the Military",
@@ -165,7 +164,7 @@
                         "Add 12 S.H.I.E.L.D. Officers to the Villain Deck"
                     ]
                 },
-                "displayName": "Brainwash the Military"
+                "displayName": "Brainwash The Military"
             }
         ]
     }
