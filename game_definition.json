@@ -266,7 +266,6 @@
         "displayConfig": {
           "iconField": "team",
           "multiValueIcons": {
-            "separator": "/",
             "layout": "slices"
           },
           "iconMappings": {

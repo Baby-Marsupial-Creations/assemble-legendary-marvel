@@ -40,7 +40,7 @@
       {
         "name": "Drax_Marvel_Studios",
         "displayName": "Drax",
-        "team": "Guardians Of The Galaxy/Unaffiliated",
+        "team": ["Guardians Of The Galaxy", "Unaffiliated"],
         "types": [
           "Instinct",
           "Strength",
@@ -50,7 +50,7 @@
       {
         "name": "Mantis_Marvel_Studios",
         "displayName": "Mantis",
-        "team": "Guardians Of The Galaxy/Unaffiliated",
+        "team": ["Guardians Of The Galaxy", "Unaffiliated"],
         "types": [
           "Covert",
           "Instinct",

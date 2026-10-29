@@ -16,7 +16,7 @@
             },
             {
                 "name": "Cloak & Dagger",
-                "team": "Avengers/Marvel Knights",
+                "team": ["Avengers", "Marvel Knights"],
                 "types": [
                     "Covert",
                     "Ranged"
@@ -25,7 +25,7 @@
             },
             {
                 "name": "Daredevil_civil_wars",
-                "team": "Avengers/Marvel Knights",
+                "team": ["Avengers", "Marvel Knights"],
                 "types": [
                     "Instinct",
                     "Covert",
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Hercules",
-                "team": "Avengers/Unaffiliated",
+                "team": ["Avengers", "Unaffiliated"],
                 "types": [
                     "Strength",
                     "Instinct",
@@ -73,7 +73,7 @@
             },
             {
                 "name": "Luke Cage",
-                "team": "Avengers/Marvel Knights",
+                "team": ["Avengers", "Marvel Knights"],
                 "types": [
                     "Strength",
                     "Instinct"
@@ -93,7 +93,7 @@
             },
             {
                 "name": "Peter Parker",
-                "team": "Avengers/Spider Friends",
+                "team": ["Avengers", "Spider Friends"],
                 "types": [
                     "Instinct",
                     "Tech"
@@ -120,7 +120,7 @@
             },
             {
                 "name": "Storm & Black Panther",
-                "team": "X-Men/Avengers",
+                "team": ["X-Men", "Avengers"],
                 "types": [
                     "Instinct",
                     "Ranged",
