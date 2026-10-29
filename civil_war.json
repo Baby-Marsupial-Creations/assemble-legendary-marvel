@@ -31,7 +31,7 @@
                     "Covert",
                     "Strength"
                 ],
-                "displayName": "Daredevil"
+                "displayName": "Daredevil (& Iron Fist)"
             },
             {
                 "name": "Falcon",
@@ -41,7 +41,7 @@
                     "Instinct",
                     "Ranged"
                 ],
-                "displayName": "Falcon"
+                "displayName": "Falcon (& Redwing)"
             },
             {
                 "name": "Goliath",
@@ -78,7 +78,7 @@
                     "Strength",
                     "Instinct"
                 ],
-                "displayName": "Luke Cage"
+                "displayName": "Luke Cage (& Jessica Jones)"
             },
             {
                 "name": "Patriot",
@@ -89,7 +89,7 @@
                     "Instinct",
                     "Tech"
                 ],
-                "displayName": "Patriot"
+                "displayName": "Patriot (& Hawkeye)"
             },
             {
                 "name": "Peter Parker",
@@ -98,7 +98,7 @@
                     "Instinct",
                     "Tech"
                 ],
-                "displayName": "Peter Parker"
+                "displayName": "Peter Parker (& Aunt May)"
             },
             {
                 "name": "Speedball",
@@ -107,7 +107,7 @@
                     "Covert",
                     "Ranged"
                 ],
-                "displayName": "Speedball"
+                "displayName": "Speedball (& Namorita)"
             },
             {
                 "name": "Stature",
@@ -116,7 +116,7 @@
                     "Strength",
                     "Tech"
                 ],
-                "displayName": "Stature"
+                "displayName": "Stature (& Iron Lad)"
             },
             {
                 "name": "Storm & Black Panther",
@@ -154,7 +154,7 @@
                     "Covert",
                     "Ranged"
                 ],
-                "displayName": "Wiccan"
+                "displayName": "Wiccan (& Speed)"
             }
         ],
         "masterminds": [
