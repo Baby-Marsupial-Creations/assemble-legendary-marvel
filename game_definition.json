@@ -265,6 +265,10 @@
         ],
         "displayConfig": {
           "iconField": "team",
+          "multiValueIcons": {
+            "separator": "/",
+            "layout": "slices"
+          },
           "iconMappings": {
             "Avengers": {
               "iconData": "team-icons/avengers192.png",
@@ -291,10 +295,6 @@
               "type": "asset"
             },
             "Guardians Of The Galaxy": {
-              "iconData": "team-icons/gotg192.png",
-              "type": "asset"
-            },
-            "Guardians Of The Galaxy/Unaffiliated": {
               "iconData": "team-icons/gotg192.png",
               "type": "asset"
             },
