@@ -10,6 +10,7 @@
                     "Covert",
                     "Instinct",
                     "Ranged",
+                    "Strength",
                     "Tech"
                 ],
                 "displayName": "Captain America, Secret Avenger"
@@ -120,7 +121,7 @@
             },
             {
                 "name": "Storm & Black Panther",
-                "team": ["X-Men", "Avengers"],
+                "team": ["Avengers", "X-Men" ],
                 "types": [
                     "Instinct",
                     "Ranged",
@@ -352,12 +353,20 @@
                     "schemeTwists": 9,
                     "heroes": {
                         "set": {
-                            "count": 6
+                            "count": 6,
+                            "splitBy": {
+                                "property": "team",
+                                "groups": [
+                                    {
+                                        "count": 3
+                                    },
+                                    {
+                                        "count": 3
+                                    }
+                                ]
+                            }
                         }
-                    },
-                    "notes": [
-                        "HOW DO I DO THIS ONE?Select 3 Heroes from one Team and 3 Heroes from a different Team."
-                    ]
+                    }
                 }
             },
             {
