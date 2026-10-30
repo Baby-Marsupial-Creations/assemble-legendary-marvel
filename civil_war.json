@@ -64,13 +64,13 @@
                 "displayName": "Hercules"
             },
             {
-                "name": "Hulking",
+                "name": "Hulkling",
                 "team": "Avengers",
                 "types": [
                     "Strength",
                     "Covert"
                 ],
-                "displayName": "Hulking"
+                "displayName": "Hulkling"
             },
             {
                 "name": "Luke Cage",
@@ -218,7 +218,7 @@
                 "displayName": "Baron Helmut Zemo"
             },
             {
-                "name": "Maria Hill, Director of S.H.I.E.L.D.",
+                "name": "Maria Hill, Director Of S.H.I.E.L.D.",
                 "postRandomization": {
                     "conditionalRules": [
                         {
@@ -244,7 +244,7 @@
                         }
                     ]
                 },
-                "displayName": "Maria Hill, Director of S.H.I.E.L.D."
+                "displayName": "Maria Hill, Director Of S.H.I.E.L.D."
             },
             {
                 "name": "Misty Knight",
@@ -311,8 +311,8 @@
                 "displayName": "CSA Special Marshals"
             },
             {
-                "name": "Great Lake Avengers",
-                "displayName": "Great Lake Avengers"
+                "name": "Great Lakes Avengers",
+                "displayName": "Great Lakes Avengers"
             },
             {
                 "name": "Heroes For Hire",
@@ -341,8 +341,8 @@
                 "displayName": "Cape-Killers"
             },
             {
-                "name": "Mandroids",
-                "displayName": "Mandroids"
+                "name": "Mandroid",
+                "displayName": "Mandroid"
             }
         ],
         "schemes": [
@@ -370,9 +370,9 @@
                 }
             },
             {
-                "name": "Dark Reign of H.A.M.M.E.R. Officers",
+                "name": "Dark Reign Of H.A.M.M.E.R. Officers",
                 "schemeTwists": 7,
-                "displayName": "Dark Reign of H.A.M.M.E.R. Officers"
+                "displayName": "Dark Reign Of H.A.M.M.E.R. Officers"
             },
             {
                 "name": "Epic_Super_Hero_Civil_War",
@@ -434,9 +434,9 @@
                 }
             },
             {
-                "name": "United States Split by Civil War",
+                "name": "United States Split By Civil War",
                 "schemeTwists": 10,
-                "displayName": "United States Split by Civil War"
+                "displayName": "United States Split By Civil War"
             }
         ]
     }
