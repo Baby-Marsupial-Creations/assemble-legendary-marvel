@@ -142,7 +142,7 @@
             "forceIncludeMatching": { "where": { "team": ["Guardians Of The Galaxy"] } }
           },
           "notes": [
-            "Use only half the cards from each Villain and Henchman groups, randomly & secretly."
+            "Use only half the cards from each Villain and Henchman Group, randomly & secretly."
           ],
           "conditionalRules": [
             {
