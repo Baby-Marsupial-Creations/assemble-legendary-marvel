@@ -4,7 +4,7 @@
         "name": "Deadpool",
         "heroes": [
             {
-                "name": "Bob. Agent Of Hydra",
+                "name": "Bob. Agent Of HYDRA",
                 "team": "HYDRA",
                 "types": [
                     "Tech",
@@ -91,7 +91,7 @@
                                 "2-5": {
                                     "villains": {
                                         "forceInclude": [
-                                            "Deadpool's 'Friends'"
+                                            "Deadpool's \"Friends\""
                                         ],
                                         "priority": 10
                                     }
@@ -99,7 +99,7 @@
                                 "1": {
                                     "villains": {
                                         "forceExclude": [
-                                            "Deadpool's 'Friends'"
+                                            "Deadpool's \"Friends\""
                                         ],
                                         "priority": 10
                                     }
@@ -117,7 +117,7 @@
                 "displayName": "Evil Deadpool Corpse"
             },
             {
-                "name": "Deadpool's 'Friends'",
+                "name": "Deadpool's \"Friends\"",
                 "displayName": "Deadpool's 'Friends'"
             }
         ],
@@ -162,7 +162,7 @@
             },
             {
                 "name": "Deadpool_Wants_A_Chimichanga",
-                "displayName": "Deadpool Wants a Chimichanga",
+                "displayName": "Deadpool Wants A Chimichanga",
                 "postRandomization": {
                     "schemeTwists": 6,
                     "bystanders": 12,
