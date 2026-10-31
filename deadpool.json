@@ -4,17 +4,17 @@
         "name": "Deadpool",
         "heroes": [
             {
-                "name": "Bob. Agent of Hydra",
+                "name": "Bob. Agent Of Hydra",
                 "team": "HYDRA",
                 "types": [
                     "Tech",
                     "Covert"
                 ],
-                "displayName": "Bob. Agent of Hydra"
+                "displayName": "Bob. Agent Of Hydra"
             },
             {
                 "name": "Deadpool_deadpool_expansion",
-                "team": "Mercs for Money",
+                "team": "Mercs For Money",
                 "types": [
                     "Tech",
                     "Instinct",
@@ -25,7 +25,7 @@
             },
             {
                 "name": "Slapstick",
-                "team": "Mercs for Money",
+                "team": "Mercs For Money",
                 "types": [
                     "Ranged",
                     "Strength"
@@ -34,7 +34,7 @@
             },
             {
                 "name": "Solo",
-                "team": "Mercs for Money",
+                "team": "Mercs For Money",
                 "types": [
                     "Tech",
                     "Instinct"
@@ -43,7 +43,7 @@
             },
             {
                 "name": "Stingray",
-                "team": "Mercs for Money",
+                "team": "Mercs For Money",
                 "types": [
                     "Ranged",
                     "Tech"
@@ -124,12 +124,14 @@
         "schemes": [
             {
                 "name": "Deadpool_Kills_The_Marvel_Universe",
-                "displayName": "Deadpool Kills the Marvel Universe",
+                "displayName": "Deadpool Kills The Marvel Universe",
                 "postRandomization": {
                     "heroes": {
-                        "forceInclude": [
-                            "Deadpool_deadpool_expansion"
-                        ],
+                        "forceIncludeMatching": {
+                            "matching": [
+                                "Deadpool"
+                            ]
+                        },
                         "priority": 10
                     },
                     "conditionalRules": [
@@ -175,15 +177,12 @@
                                 }
                             }
                         }
-                    ],
-                    "notes": [
-                        "All Bystanders represent Chimichangas, including special Bystanders."
                     ]
                 }
             },
             {
                 "name": "Deadpool_Writes_A_Scheme",
-                "displayName": "Deadpool Writes a Scheme",
+                "displayName": "Deadpool Writes A Scheme",
                 "postRandomization": {
                     "schemeTwists": 6,
                     "heroes": {
@@ -199,13 +198,17 @@
                 "displayName": "Everybody Hates Deadpool",
                 "postRandomization": {
                     "schemeTwists": 6,
-                    "notes": [
-                        "Use at least 1 Mercenary Hero."
-                    ]
+                    "heroes": {
+                        "forceIncludeMatching": {
+                            "where": {
+                                "team": [
+                                    "Mercs For Money"
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         ]
     }
 }
-
-
