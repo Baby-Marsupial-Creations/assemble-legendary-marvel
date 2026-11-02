@@ -27,7 +27,7 @@
                 "team": "Avengers",
                 "types": [
                     "Tech",
-                    "Instinct"
+                    "Ranged"
                 ],
                 "displayName": "Iron Man Noir"
             },
@@ -124,13 +124,13 @@
         ],
         "schemes": [
             {
-                "name": "Find the Split Personality Killer",
+                "name": "Find The Split Personality Killer",
                 "schemeTwists": 8,
-                "displayName": "Find the Split Personality Killer"
+                "displayName": "Find The Split Personality Killer"
             },
             {
                 "name": "Five_Families_Of_Crime",
-                "displayName": "Five Families of Crime",
+                "displayName": "Five Families Of Crime",
                 "postRandomization": {
                     "schemeTwists": 8,
                     "villains": {
@@ -143,7 +143,7 @@
             },
             {
                 "name": "Hidden_Heart_Of_Darkness",
-                "displayName": "Hidden Heart of Darkness",
+                "displayName": "Hidden Heart Of Darkness",
                 "postRandomization": {
                     "schemeTwists": 8,
                     "notes": [
@@ -152,9 +152,9 @@
                 }
             },
             {
-                "name": "Silence the Witnesses",
+                "name": "Silence The Witnesses",
                 "schemeTwists":6,
-                "displayName": "Silence the Witnesses"
+                "displayName": "Silence The Witnesses"
             }
         ]
     }
