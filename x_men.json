@@ -226,9 +226,11 @@
                                         "priority": 10
                                     },
                                     "henchmen": {
-                                        "forceExclude": [
-                                            "Shi'ar Death Commandors"
-                                        ],
+                                        "forceExcludeMatching": {
+                                            "matching": [
+                                                "Shi'ar"
+                                            ]
+                                        },
                                         "priority": 10
                                     }
                                 },
@@ -240,9 +242,11 @@
                                         "priority": 10
                                     },
                                     "henchmen": {
-                                        "forceInclude": [
-                                            "Shi'ar Death Commandors"
-                                        ],
+                                        "forceIncludeMatching": {
+                                            "matching": [
+                                                "Shi'ar"
+                                            ]
+                                        },
                                         "priority": 10
                                     }
                                 }
