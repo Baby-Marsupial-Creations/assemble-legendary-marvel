@@ -54,8 +54,8 @@
         ],
         "masterminds": [
             {
-                "name": "Charles Xavier, Professer of Crime",
-                "displayName": "Charles Xavier, Professer of Crime",
+                "name": "Charles Xavier, Professor Of Crime",
+                "displayName": "Charles Xavier, Professor Of Crime",
                 "postRandomization": {
                     "conditionalRules": [
                         {
