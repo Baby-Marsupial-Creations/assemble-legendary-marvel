@@ -4,7 +4,7 @@
         "name": "X-Men",
         "heroes": [
             {
-                "name": "Aurora and Northstar",
+                "name": "Aurora & Northstar",
                 "team": "X-Men",
                 "types": [
                     "Covert",
@@ -12,7 +12,7 @@
                     "Ranged",
                     "Instinct"
                 ],
-                "displayName": "Aurora and Northstar"
+                "displayName": "Aurora & Northstar"
             },
             {
                 "name": "Banshee",
@@ -42,13 +42,13 @@
                 "displayName": "Cannonball"
             },
             {
-                "name": "Colossus and Wolverine",
+                "name": "Colossus & Wolverine",
                 "team": "X-Men",
                 "types": [
                     "Instinct",
                     "Strength"
                 ],
-                "displayName": "Colossus and Wolverine"
+                "displayName": "Colossus & Wolverine"
             },
             {
                 "name": "Dazzler",
@@ -434,9 +434,9 @@
                 }
             },
             {
-                "name": "Horror of Horrors",
+                "name": "Horror Of Horrors",
                 "schemeTwists": 6,
-                "displayName": "Horror of Horrors"
+                "displayName": "Horror Of Horrors"
             },
             {
                 "name": "Mutant_Hunting_Super_Sentinels",
@@ -455,7 +455,7 @@
             },
             {
                 "name": "Televised_Deathtraps_Of_Mojoworld",
-                "displayName": "Televised Deathtraps of Mojoworld",
+                "displayName": "Televised Deathtraps Of Mojoworld",
                 "postRandomization": {
                     "schemeTwists": 11,
                     "notes": [
