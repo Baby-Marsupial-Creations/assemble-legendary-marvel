@@ -95,7 +95,9 @@
                 "team": "X-Men",
                 "types": [
                     "Covert",
+                    "Instinct",
                     "Ranged",
+                    "Strength",
                     "Tech"
                 ],
                 "displayName": "Legion"
