@@ -13,13 +13,13 @@
                 "displayName": "Happy Hogan"
             },
             {
-                "name": "Hightech Spider-Man",
+                "name": "High Tech Spider-Man",
                 "team": "Spider Friends",
                 "types": [
                     "Covert",
                     "Tech"
                 ],
-                "displayName": "Hightech Spider-Man"
+                "displayName": "High Tech Spider-Man"
             },
             {
                 "name": "Peter Parker, Homecoming",
@@ -126,10 +126,7 @@
                 "name": "Distract_The_Hero",
                 "displayName": "Distract the Hero",
                 "postRandomization": {
-                    "schemeTwists": 8,
-                    "notes": [
-                        "Use at least 1 Spider-Friends Hero."
-                    ]
+                    "schemeTwists": 8
                 }
             },
             {
