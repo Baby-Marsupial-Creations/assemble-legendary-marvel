@@ -294,7 +294,7 @@
                                 "2-5": {
                                     "villains": {
                                         "forceInclude": [
-                                            "Dark Descendents"
+                                            "Dark Descendants"
                                         ],
                                         "priority": 10
                                     }
@@ -302,7 +302,7 @@
                                 "1": {
                                     "villains": {
                                         "forceExclude": [
-                                            "Dark Descendents"
+                                            "Dark Descendants"
                                         ],
                                         "priority": 10
                                     }
@@ -345,8 +345,8 @@
         ],
         "villains": [
             {
-                "name": "Dark Descendents",
-                "displayName": "Dark Descendents"
+                "name": "Dark Descendants",
+                "displayName": "Dark Descendants"
             },
             {
                 "name": "Hellfire Club",
@@ -369,8 +369,8 @@
                 "displayName": "Shi'ar Imperial Guard"
             },
             {
-                "name": "Sisterhood of Mutants",
-                "displayName": "Sisterhood of Mutants"
+                "name": "Sisterhood Of Mutants",
+                "displayName": "Sisterhood Of Mutants"
             }
         ],
         "henchmen": [
@@ -387,8 +387,8 @@
                 "displayName": "Sapien League"
             },
             {
-                "name": "Shi'ar Death Commandors",
-                "displayName": "Shi'ar Death Commandors"
+                "name": "Shi'ar Death Commandos",
+                "displayName": "Shi'ar Death Commandos"
             },
             {
                 "name": "Shi'ar Patrol Craft",
