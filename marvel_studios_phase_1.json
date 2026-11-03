@@ -1,0 +1,316 @@
+{
+  "expansion": {
+    "id": "marvel_studios_phase_1",
+    "name": "Marvel Studios Phase 1",
+    "heroes": [
+      {
+        "name": "Black_Widow_Phase_1",
+        "displayName": "Black Widow",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Captain_America_Phase_1",
+        "displayName": "Captain America",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Hawkeye_Phase_1",
+        "displayName": "Hawkeye",
+        "team": "Avengers",
+        "types": [
+          "Instinct",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Hulk_Phase_1",
+        "displayName": "Hulk",
+        "team": "Avengers",
+        "types": [
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Iron_Man_Phase_1",
+        "displayName": "Iron Man",
+        "team": "Avengers",
+        "types": [
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Nick_Fury_Phase_1",
+        "displayName": "Nick Fury",
+        "team": "S.H.I.E.L.D.",
+        "types": [
+          "Covert",
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Thor_Phase_1",
+        "displayName": "Thor",
+        "team": "Avengers",
+        "types": [
+          "Ranged",
+          "Strength"
+        ]
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Iron_Monger_Phase_1",
+        "displayName": "Iron Monger",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Iron_Foes_Phase_1"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Iron_Foes_Phase_1"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Loki_Phase_1",
+        "displayName": "Loki",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Enemies_Of_Asgard_Phase_1"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Enemies_Of_Asgard_Phase_1"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Red_Skull_Phase_1",
+        "displayName": "Red Skull",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "HYDRA_Phase_1"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "HYDRA_Phase_1"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "villains": [
+      {
+        "name": "Chitauri_Phase_1",
+        "displayName": "Chitauri"
+      },
+      {
+        "name": "Enemies_Of_Asgard_Phase_1",
+        "displayName": "Enemies Of Asgard"
+      },
+      {
+        "name": "Gamma_Hunters_Phase_1",
+        "displayName": "Gamma Hunters"
+      },
+      {
+        "name": "HYDRA_Phase_1",
+        "displayName": "HYDRA"
+      },
+      {
+        "name": "Iron_Foes_Phase_1",
+        "displayName": "Iron Foes"
+      }
+    ],
+    "henchmen": [
+      {
+        "name": "Hammer_Drone_Army_Phase_1",
+        "displayName": "Hammer Drone Army"
+      },
+      {
+        "name": "HYDRA_Pilots_Phase_1",
+        "displayName": "HYDRA Pilots"
+      },
+      {
+        "name": "HYDRA_Spies_Phase_1",
+        "displayName": "HYDRA Spies"
+      },
+      {
+        "name": "Ten_Rings_Fanatics_Phase_1",
+        "displayName": "Ten Rings Fanatics"
+      }
+    ],
+    "boards": [
+      {
+        "name": "Hero_Phase_1",
+        "displayName": "Hero"
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Asgard_Under_Siege_Phase_1",
+        "displayName": "Asgard Under Siege",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "henchmen": {
+            "addExtra": 1
+          }
+        }
+      },
+      {
+        "name": "Destroy_The_Cities_Of_Earth_Phase_1",
+        "displayName": "Destroy The Cities Of Earth!",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "bystanders": 12
+        }
+      },
+      {
+        "name": "Enslave_Minds_With_The_Chitauri_Scepter_Phase_1",
+        "displayName": "Enslave Minds With The Chitauri Scepter",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "heroes": {
+            "set": {
+              "count": 6
+            }
+          },
+          "villains": {
+            "forceInclude": [
+              "Chitauri_Phase_1"
+            ],
+            "priority": 15
+          },
+          "notes": [
+            "Shuffle 12 random Heroes from the Hero Deck into the Villain Deck."
+          ]
+        }
+      },
+      {
+        "name": "Invade_Asgard_Phase_1",
+        "displayName": "Invade Asgard",
+        "postRandomization": {
+          "schemeTwists": 7
+        }
+      },
+      {
+        "name": "Radioactive_Palladium_Poisoning_Phase_1",
+        "displayName": "Radioactive Palladium Poisoning",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "notes": [
+            "Wound stack holds 6 Wounds per player."
+          ]
+        }
+      },
+      {
+        "name": "Replace_Earths_Leaders_With_HYDRA_Phase_1",
+        "displayName": "Replace Earth's Leaders With HYDRA",
+        "postRandomization": {
+          "schemeTwists": 5,
+          "bystanders": 18,
+          "notes": [
+            "3 additional Twists next to this Scheme."
+          ]
+        }
+      },
+      {
+        "name": "Super_Hero_Civil_War_Phase_1",
+        "displayName": "Super Hero Civil War",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1-3": {
+                  "schemeTwists": 8
+                },
+                "4-5": {
+                  "schemeTwists": 5
+                }
+              }
+            },
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "2": {
+                  "heroes": {
+                    "set": {
+                      "count": 4
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Unleash_The_Power_Of_The_Cosmic_Cube_Phase_1",
+        "displayName": "Unleash The Power Of The Cosmic Cube",
+        "postRandomization": {
+          "schemeTwists": 8
+        }
+      }
+    ]
+  }
+}
