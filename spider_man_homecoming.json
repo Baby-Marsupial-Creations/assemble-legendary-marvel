@@ -124,17 +124,25 @@
         "schemes": [
             {
                 "name": "Distract_The_Hero",
-                "displayName": "Distract the Hero",
+                "displayName": "Distract The Hero",
                 "postRandomization": {
-                    "schemeTwists": 8
+                    "schemeTwists": 8,
+                    "heroes": {
+                        "forceIncludeMatching": {
+                            "where": {
+                                "team": [
+                                    "Spider Friends"
+                                ]
+                            }
+                        }
+                    }
                 }
             },
             {
                 "name": "Explosion_At_The_Washington_Monument",
-                "displayName": "Explosion at the Washington Monument",
+                "displayName": "Explosion At The Washington Monument",
                 "postRandomization": {
                     "schemeTwists": 8,
-                    "bystanders": 18,
                     "notes": [
                         "Shuffle 18 Bystanders and 14 Wounds, then deal them evenly into eight decks. Put these decks in a row, as Floors of the Washington Monument."
                     ]
@@ -157,10 +165,7 @@
                     "schemeTwists": 7,
                     "henchmen": {
                         "addExtra": 1
-                    },
-                    "notes": [
-                        "Add an extra Henchmen Group of 10 cards as \"Smugglers\"."
-                    ]
+                    }
                 }
             }
         ]
