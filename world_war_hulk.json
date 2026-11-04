@@ -457,7 +457,7 @@
                 "postRandomization": {
                     "dynamicNotes": [
                         {
-                            "template": "Take 14 cards from an extra Hero with \"Hulk\" in its Hero Name. ({extraHero}) Put them in a face-up \"Hulk Deck.\"",
+                            "template": "Take 14 cards from an extra Hero with \"Hulk\" in its Hero Name. ({extraHero}) Shuffle them into a \"Hulk Deck.\"",
                             "variables": {
                                 "extraHero": {
                                     "type": "randomUnusedElementOfType",
