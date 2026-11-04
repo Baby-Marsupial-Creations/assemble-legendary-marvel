@@ -532,7 +532,7 @@
         "postRandomization": {
           "schemeTwists": 9,
           "notes": [
-            "6 Wounds per player in Wound Stack."
+            "Wound Deck holds 6 Wounds per player."
           ]
         }
       },
