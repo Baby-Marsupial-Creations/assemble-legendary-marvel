@@ -284,7 +284,8 @@
                   "villains": {
                     "forceExcludeMatching": {
                       "matching": [
-                        "HYDRA", "Hydra"
+                        "HYDRA",
+                        "Hydra"
                       ]
                     },
                     "priority": 10
@@ -294,7 +295,8 @@
                   "villains": {
                     "forceIncludeMatching": {
                       "matching": [
-                        "HYDRA", "Hydra"
+                        "HYDRA",
+                        "Hydra"
                       ]
                     },
                     "priority": 10
@@ -529,27 +531,8 @@
         "displayName": "The Legacy Virus",
         "postRandomization": {
           "schemeTwists": 9,
-          "conditionalRules": [
-            {
-              "parameter": "numberOfPlayers",
-              "conditions": {
-                "1": {
-                  "wounds": 6
-                },
-                "2": {
-                  "wounds": 12
-                },
-                "3": {
-                  "wounds": 18
-                },
-                "4": {
-                  "wounds": 24
-                },
-                "5": {
-                  "wounds": 30
-                }
-              }
-            }
+          "notes": [
+            "6 Wounds per player in Wound Stack."
           ]
         }
       },
