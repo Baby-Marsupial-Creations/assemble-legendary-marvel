@@ -68,7 +68,7 @@
                     "Covert",
                     "Instinct"
                 ],
-                "displayName": "Joe Fix-It, The Grey Hulk"
+                "displayName": "Joe Fixit, The Grey Hulk"
             },
             {
                 "name": "Korg",
@@ -80,14 +80,14 @@
                 "displayName": "Korg"
             },
             {
-                "name": "Miek, the Unhived",
+                "name": "Miek the Unhived",
                 "team": "Warbound",
                 "types": [
                     "Instinct",
                     "Covert",
                     "Strength"
                 ],
-                "displayName": "Miek, the Unhived"
+                "displayName": "Miek The Unhived"
             },
             {
                 "name": "Namora",
