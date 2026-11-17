@@ -157,7 +157,7 @@
           "schemeTwists": 11,
           "dynamicNotes": [
             {
-              "template": "Set aside a second \"Drained\" Mastermind ({drainedMastermind}) and its 4 Tactics, out of play. Add its \"Always Leads\" Villains as an extra Villain Group in the Villain Deck.",
+              "template": "Set aside a second \"Drained\" Mastermind ({drainedMastermind}) and its 4 Tactics, out of play. Add its \"Always Leads\" Villains as an extra Villain Group.",
               "variables": {
                 "drainedMastermind": {
                   "type": "randomUnusedElementOfType",
