@@ -58,8 +58,8 @@
         "displayName": "Circus Of Crime"
       },
       {
-        "name": "Spider_Slayer",
-        "displayName": "Spider-Slayer"
+        "name": "Spider_Slayers",
+        "displayName": "Spider-Slayers"
       }
     ],
     "masterminds": [
@@ -77,7 +77,7 @@
                 "1": {
                   "henchmen": {
                     "forceExclude": [
-                      "Spider_Slayer"
+                      "Spider-Slayers"
                     ],
                     "priority": 10
                   }
@@ -85,7 +85,7 @@
                 "2-5": {
                   "henchmen": {
                     "forceInclude": [
-                      "Spider_Slayer"
+                      "Spider-Slayers"
                     ],
                     "priority": 10
                   }
