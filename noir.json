@@ -86,6 +86,9 @@
                 "name": "The Goblin, Underworld Boss",
                 "displayName": "The Goblin, Underworld Boss",
                 "postRandomization": {
+                    "notes": [
+                        "The Goblin captures 2 Hidden Witnesses."
+                    ],
                     "conditionalRules": [
                         {
                             "parameter": "numberOfPlayers",

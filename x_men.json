@@ -155,6 +155,9 @@
             {
                 "name": "Arcade",
                 "postRandomization": {
+                    "notes": [
+                        "Arcade captures 5 Human Shields."
+                    ],
                     "conditionalRules": [
                         {
                             "parameter": "numberOfPlayers",
@@ -258,6 +261,9 @@
             {
                 "name": "Mojo",
                 "postRandomization": {
+                    "notes": [
+                        "Mojo captures 3 Human Shields."
+                    ],
                     "conditionalRules": [
                         {
                             "parameter": "numberOfPlayers",
