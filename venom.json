@@ -1,0 +1,173 @@
+{
+  "expansion": {
+    "id": "venom",
+    "name": "Venom",
+    "heroes": [
+      {
+        "name": "Carnage",
+        "displayName": "Carnage",
+        "team": "Venomverse",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Venom_Venomverse",
+        "displayName": "Venom",
+        "team": "Venomverse",
+        "types": [
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Venom_Rocket",
+        "displayName": "Venom Rocket",
+        "team": "Venomverse",
+        "types": [
+          "Instinct",
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Venomized_Dr_Strange",
+        "displayName": "Venomized Dr. Strange",
+        "team": "Venomverse",
+        "types": [
+          "Instinct",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Venompool",
+        "displayName": "Venompool",
+        "team": "Venomverse",
+        "types": [
+          "Instinct",
+          "Strength",
+          "Tech"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Life_Foundation",
+        "displayName": "Life Foundation"
+      },
+      {
+        "name": "Poisons",
+        "displayName": "Poisons"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Hybrid",
+        "displayName": "Hybrid",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Life_Foundation"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Life_Foundation"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Poison_Thanos",
+        "displayName": "Poison Thanos",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Poisons"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Poisons"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Invasion_of_the_Venom_Symbiotes",
+        "displayName": "Invasion Of The Venom Symbiotes",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "henchmen": {
+            "addExtra": 1
+          }
+        }
+      },
+      {
+        "name": "Maximum_Carnage",
+        "displayName": "Maximum Carnage",
+        "postRandomization": {
+          "schemeTwists": 10,
+          "notes": [
+            "Wound Stack has 6 Wounds per player."
+          ]
+        }
+      },
+      {
+        "name": "Paralyzing_Venom",
+        "displayName": "Paralyzing Venom",
+        "postRandomization": {
+          "schemeTwists": 6
+        }
+      },
+      {
+        "name": "Symbiotic_Absorption",
+        "displayName": "Symbiotic Absorption",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "dynamicNotes": [
+            {
+              "template": "Set aside a second \"Drained\" Mastermind ({drainedMastermind}) and its 4 Tactics, out of play. Add its \"Always Leads\" Villains as an extra Villain Group in the Villain Deck.",
+              "variables": {
+                "drainedMastermind": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "masterminds"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
