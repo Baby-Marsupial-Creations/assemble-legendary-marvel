@@ -1,0 +1,201 @@
+{
+  "expansion": {
+    "id": "ant_man",
+    "name": "Ant-Man",
+    "heroes": [
+      {
+        "name": "Ant_Man",
+        "displayName": "Ant-Man",
+        "team": "Avengers",
+        "types": [
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Wasp_Ant_Man",
+        "displayName": "Wasp",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Jocasta",
+        "displayName": "Jocasta",
+        "team": "Avengers",
+        "types": [
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Wonder_Man",
+        "displayName": "Wonder Man",
+        "team": "Avengers",
+        "types": [
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Black_Knight",
+        "displayName": "Black Knight",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Ultrons_Legacy",
+        "displayName": "Ultron's Legacy"
+      },
+      {
+        "name": "Queens_Vengeance",
+        "displayName": "Queen's Vengeance"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Ultron",
+        "displayName": "Ultron",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Ultrons_Legacy"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Ultrons_Legacy"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Morgan_Le_Fay",
+        "displayName": "Morgan Le Fay",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Queens_Vengeance"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Queens_Vengeance"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Age_of_Ultron",
+        "displayName": "Age Of Ultron",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "4-5": {
+                  "heroes": {
+                    "addExtra": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Pull_Earth_into_Medieval_Times",
+        "displayName": "Pull Earth Into Medieval Times",
+        "postRandomization": {
+          "schemeTwists": 9
+        }
+      },
+      {
+        "name": "Transform_Commuters_into_Giant_Ants",
+        "displayName": "Transform Commuters Into Giant Ants",
+        "postRandomization": {
+          "notes": [
+            "Twists equal to the number of players plus 6."
+          ],
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "schemeTwists": 7
+                },
+                "2": {
+                  "schemeTwists": 8
+                },
+                "3": {
+                  "schemeTwists": 9
+                },
+                "4": {
+                  "schemeTwists": 10
+                },
+                "5": {
+                  "schemeTwists": 11
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Trap_Heroes_in_the_Microverse",
+        "displayName": "Trap Heroes In The Microverse",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "dynamicNotes": [
+            {
+              "template": "Add all 14 cards for an extra Hero to the Villain Deck. ({extraHero})",
+              "variables": {
+                "extraHero": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
