@@ -1,0 +1,275 @@
+{
+  "expansion": {
+    "id": "revelations",
+    "name": "Revelations",
+    "heroes": [
+      {
+        "name": "Captain_Marvel_Agent_of_SHIELD",
+        "displayName": "Captain Marvel, Agent Of S.H.I.E.L.D.",
+        "team": "S.H.I.E.L.D.",
+        "types": [
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Darkhawk",
+        "displayName": "Darkhawk",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Hellcat",
+        "displayName": "Hellcat",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Instinct"
+        ]
+      },
+      {
+        "name": "Photon",
+        "displayName": "Photon",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Quicksilver",
+        "displayName": "Quicksilver",
+        "team": "Avengers",
+        "types": [
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Ronin",
+        "displayName": "Ronin",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Scarlet_Witch",
+        "displayName": "Scarlet Witch",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Speed",
+        "displayName": "Speed",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Instinct"
+        ]
+      },
+      {
+        "name": "War_Machine",
+        "displayName": "War Machine",
+        "team": "Avengers",
+        "types": [
+          "Ranged",
+          "Tech"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Army_of_Evil",
+        "displayName": "Army Of Evil"
+      },
+      {
+        "name": "Dark_Avengers",
+        "displayName": "Dark Avengers"
+      },
+      {
+        "name": "Hoods_Gang",
+        "displayName": "Hood's Gang"
+      },
+      {
+        "name": "Lethal_Legion",
+        "displayName": "Lethal Legion"
+      }
+    ],
+    "henchmen": [
+      {
+        "name": "HYDRA_Base",
+        "displayName": "HYDRA Base"
+      },
+      {
+        "name": "Mandarins_Rings",
+        "displayName": "Mandarin's Rings"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Grim_Reaper",
+        "displayName": "Grim Reaper",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Lethal_Legion"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Lethal_Legion"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Mandarin",
+        "displayName": "Mandarin",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "henchmen": {
+                    "forceExclude": [
+                      "Mandarins_Rings"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "henchmen": {
+                    "forceInclude": [
+                      "Mandarins_Rings"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "The_Hood",
+        "displayName": "The Hood",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Hoods_Gang"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Hoods_Gang"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Earthquake_Drains_the_Ocean",
+        "displayName": "Earthquake Drains The Ocean",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "villains": {
+            "addExtra": 1
+          }
+        }
+      },
+      {
+        "name": "House_of_M",
+        "displayName": "House Of M",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "heroes": {
+            "set": {
+              "count": 6
+            },
+            "forceIncludeMatching": {
+              "where": {
+                "team": [
+                  "X-Men"
+                ]
+              },
+              "exactly": 4
+            }
+          },
+          "notes": [
+            "Add 14 Scarlet Witch Hero cards to the Villain Deck."
+          ]
+        }
+      },
+      {
+        "name": "Secret_HYDRA_Corruption",
+        "displayName": "Secret HYDRA Corruption",
+        "postRandomization": {
+          "notes": [
+            "30 Officers in the S.H.I.E.L.D. Officer stack."
+          ],
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "schemeTwists": 7
+                },
+                "2-3": {
+                  "schemeTwists": 9
+                },
+                "4-5": {
+                  "schemeTwists": 11
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "The_Korvac_Saga",
+        "displayName": "The Korvac Saga",
+        "postRandomization": {
+          "schemeTwists": 8
+        }
+      }
+    ]
+  }
+}
