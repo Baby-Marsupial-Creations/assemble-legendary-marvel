@@ -1,0 +1,170 @@
+{
+  "expansion": {
+    "id": "shield",
+    "name": "S.H.I.E.L.D.",
+    "heroes": [
+      {
+        "name": "Agent_Phil_Coulson",
+        "displayName": "Agent Phil Coulson",
+        "team": "S.H.I.E.L.D.",
+        "types": [
+          "Covert",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Quake",
+        "displayName": "Quake",
+        "team": "S.H.I.E.L.D.",
+        "types": [
+          "Covert",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Deathlok",
+        "displayName": "Deathlok",
+        "team": "S.H.I.E.L.D.",
+        "types": [
+          "Covert",
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Mockingbird",
+        "displayName": "Mockingbird",
+        "team": "S.H.I.E.L.D.",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Tech"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Hydra_Elite",
+        "displayName": "HYDRA Elite"
+      },
+      {
+        "name": "AIM_Hydra_Offshoot",
+        "displayName": "A.I.M., HYDRA Offshoot"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Hydra_High_Council",
+        "displayName": "HYDRA High Council",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Hydra_Elite"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Hydra_Elite"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Hydra_Super_Adaptoid",
+        "displayName": "HYDRA Super-Adaptoid",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "AIM_Hydra_Offshoot"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "AIM_Hydra_Offshoot"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "SHIELD_vs_HYDRA_War",
+        "displayName": "S.H.I.E.L.D. Vs. HYDRA War",
+        "postRandomization": {
+          "schemeTwists": 7,
+          "villains": {
+            "forceIncludeMatching": {
+              "matching": [
+                "Hydra_Elite",
+                "AIM_Hydra_Offshoot"
+              ],
+              "exactly": 1
+            },
+            "priority": 15
+          }
+        }
+      },
+      {
+        "name": "Hail_Hydra",
+        "displayName": "Hail HYDRA",
+        "postRandomization": {
+          "schemeTwists": 11
+        }
+      },
+      {
+        "name": "Hydra_Helicarriers_Hunt_Heroes",
+        "displayName": "HYDRA Helicarriers Hunt Heroes",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "heroes": {
+            "addExtra": 1
+          }
+        }
+      },
+      {
+        "name": "Secret_Empire_of_Betrayal",
+        "displayName": "Secret Empire Of Betrayal",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "dynamicNotes": [
+            {
+              "template": "Randomly pick 5 cards that cost 5 or less from an additional Hero ({extraHero}). Shuffle them to form a \"Dark Loyalty\" deck.",
+              "variables": {
+                "extraHero": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
