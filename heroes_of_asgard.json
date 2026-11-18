@@ -1,0 +1,157 @@
+{
+  "expansion": {
+    "id": "heroes_of_asgard",
+    "name": "Heroes of Asgard",
+    "heroes": [
+      {
+        "name": "Thor_Asgard",
+        "displayName": "Thor",
+        "team": "Heroes Of Asgard",
+        "types": [
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Beta_Ray_Bill",
+        "displayName": "Beta Ray Bill",
+        "team": "Heroes Of Asgard",
+        "types": [
+          "Ranged",
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Valkyrie",
+        "displayName": "Valkyrie",
+        "team": "Heroes Of Asgard",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Lady_Sif",
+        "displayName": "Lady Sif",
+        "team": "Heroes Of Asgard",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "The_Warriors_Three",
+        "displayName": "The Warriors Three",
+        "team": "Heroes Of Asgard",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Dark_Council",
+        "displayName": "Dark Council"
+      },
+      {
+        "name": "Omens_of_Ragnarok",
+        "displayName": "Omens Of Ragnarok"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Malekith_the_Accursed",
+        "displayName": "Malekith The Accursed",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Dark_Council"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Dark_Council"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Hela_Goddess_of_Death",
+        "displayName": "Hela, Goddess Of Death",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Omens_of_Ragnarok"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Omens_of_Ragnarok"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Asgardian_Test_of_Worth",
+        "displayName": "Asgardian Test Of Worth",
+        "postRandomization": {
+          "schemeTwists": 11
+        }
+      },
+      {
+        "name": "The_Dark_World_of_Svartalfheim",
+        "displayName": "The Dark World Of Svartalfheim",
+        "postRandomization": {
+          "schemeTwists": 10
+        }
+      },
+      {
+        "name": "Ragnarok_Twilight_of_the_Gods",
+        "displayName": "Ragnarok, Twilight Of The Gods",
+        "postRandomization": {
+          "schemeTwists": 11
+        }
+      },
+      {
+        "name": "War_of_the_Frost_Giants",
+        "displayName": "War Of The Frost Giants",
+        "postRandomization": {
+          "schemeTwists": 9
+        }
+      }
+    ]
+  }
+}
