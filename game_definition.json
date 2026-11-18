@@ -314,7 +314,7 @@
               "iconData": "team-icons/xforce192.png",
               "type": "asset"
             },
-            "Heroes of Asgard": {
+            "Heroes Of Asgard": {
               "iconData": "team-icons/heroesofasgard192.png",
               "type": "asset"
             },
@@ -364,6 +364,10 @@
             },
             "Warbound": {
               "iconData": "team-icons/warbound192.png",
+              "type": "asset"
+            },
+            "X-Factor": {
+              "iconData": "team-icons/xfactor192.png",
               "type": "asset"
             },
             "Unaffiliated": {
