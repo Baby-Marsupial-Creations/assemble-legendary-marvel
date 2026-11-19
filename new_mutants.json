@@ -1,0 +1,188 @@
+{
+  "expansion": {
+    "id": "new_mutants",
+    "name": "The New Mutants",
+    "heroes": [
+      {
+        "name": "Sunspot",
+        "displayName": "Sunspot",
+        "team": "X-Men",
+        "types": [
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Wolfsbane",
+        "displayName": "Wolfsbane",
+        "team": "X-Men",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Mirage",
+        "displayName": "Mirage",
+        "team": "X-Men",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Warlock",
+        "displayName": "Warlock",
+        "team": "X-Men",
+        "types": [
+          "Covert",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Karma",
+        "displayName": "Karma",
+        "team": "X-Men",
+        "types": [
+          "Covert",
+          "Ranged"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Hellions",
+        "displayName": "Hellions"
+      },
+      {
+        "name": "Demons_of_Limbo",
+        "displayName": "Demons Of Limbo"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Belasco_Demon_Lord_of_Limbo",
+        "displayName": "Belasco, Demon Lord Of Limbo",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Demons_of_Limbo"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Demons_of_Limbo"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Emma_Frost_The_White_Queen",
+        "displayName": "Emma Frost, The White Queen",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Hellions"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Hellions"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "The_Demon_Bear_Saga",
+        "displayName": "The Demon Bear Saga",
+        "postRandomization": {
+          "schemeTwists": 8,
+          "villains": {
+            "forceInclude": [
+              "Demons_of_Limbo"
+            ],
+            "priority": 15
+          },
+          "notes": [
+            "Put the Demon Bear Villain from 'Demons Of Limbo' next to the Scheme."
+          ]
+        }
+      },
+      {
+        "name": "Crash_the_Moon_into_the_Sun",
+        "displayName": "Crash The Moon Into The Sun",
+        "postRandomization": {
+          "schemeTwists": 11
+        }
+      },
+      {
+        "name": "Trapped_in_the_Insane_Asylum",
+        "displayName": "Trapped In The Insane Asylum",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "schemeTwists": 3
+                },
+                "2": {
+                  "schemeTwists": 5
+                },
+                "3": {
+                  "schemeTwists": 7
+                },
+                "4": {
+                  "schemeTwists": 9
+                },
+                "5": {
+                  "schemeTwists": 11
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Superhuman_Baseball_Game",
+        "displayName": "Superhuman Baseball Game",
+        "postRandomization": {
+          "schemeTwists": 9,
+          "villains": {
+            "addExtra": 1
+          }
+        }
+      }
+    ]
+  }
+}
