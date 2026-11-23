@@ -127,7 +127,8 @@
               "matching": [
                 "Wolverine",
                 "Logan"
-              ]
+              ],
+              "exactly": 1
             },
             "priority": 15
           }

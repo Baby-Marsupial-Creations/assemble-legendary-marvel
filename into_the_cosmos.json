@@ -1,0 +1,289 @@
+{
+  "expansion": {
+    "id": "into_the_cosmos",
+    "name": "Into the Cosmos",
+    "heroes": [
+      {
+        "name": "Captain_Mar_Vell",
+        "displayName": "Captain Mar-Vell",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Ranged",
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Quasar",
+        "displayName": "Quasar",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Adam_Warlock",
+        "displayName": "Adam Warlock",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Moondragon",
+        "displayName": "Moondragon",
+        "team": "Avengers",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Nova_Cosmos",
+        "displayName": "Nova",
+        "team": "Avengers",
+        "types": [
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Yondu",
+        "displayName": "Yondu",
+        "team": "Guardians Of The Galaxy",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Phyla_Vell",
+        "displayName": "Phyla-Vell",
+        "team": "Guardians Of The Galaxy",
+        "types": [
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Ronan_the_Accuser",
+        "displayName": "Ronan The Accuser",
+        "team": "Unaffiliated",
+        "types": [
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Nebula",
+        "displayName": "Nebula",
+        "team": "Guardians Of The Galaxy",
+        "types": [
+          "Instinct",
+          "Tech"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Elders_of_the_Universe",
+        "displayName": "Elders Of The Universe"
+      },
+      {
+        "name": "Celestials",
+        "displayName": "Celestials"
+      },
+      {
+        "name": "From_Beyond",
+        "displayName": "From Beyond"
+      },
+      {
+        "name": "Black_Order_of_Thanos",
+        "displayName": "Black Order Of Thanos"
+      }
+    ],
+    "henchmen": [
+      {
+        "name": "Sidera_Maris_Bridge_Builders",
+        "displayName": "Sidera Maris, Bridge Builders"
+      },
+      {
+        "name": "Universal_Church_of_Truth",
+        "displayName": "Universal Church Of Truth"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Magus",
+        "displayName": "Magus",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "henchmen": {
+                    "forceExclude": [
+                      "Universal_Church_of_Truth"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "henchmen": {
+                    "forceInclude": [
+                      "Universal_Church_of_Truth"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "The_Grandmaster",
+        "displayName": "The Grandmaster",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Elders_of_the_Universe"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Elders_of_the_Universe"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "The_Beyonder",
+        "displayName": "The Beyonder",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "From_Beyond"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "From_Beyond"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "The_Contest_of_Champions",
+        "displayName": "The Contest Of Champions",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "heroes": {
+            "addExtra": 1
+          },
+          "notes": [
+            "Put 11 random cards from the Hero Deck face up in a \"Contest Row.\""
+          ]
+        }
+      },
+      {
+        "name": "Turn_the_Soul_of_Adam_Warlock",
+        "displayName": "Turn The Soul Of Adam Warlock",
+        "postRandomization": {
+          "schemeTwists": 14,
+          "heroes": {
+            "forceExclude": [
+              "Adam_Warlock"
+            ],
+            "priority": 15
+          },
+          "notes": [
+            "Use 3 Wounds to represent extra Scheme Twists.",
+            "Put 14 Adam Warlock Hero cards in a face up stack, ordered from lowest-cost on top, to highest-cost on the bottom."
+          ]
+        }
+      },
+      {
+        "name": "Destroy_the_Nova_Corps",
+        "displayName": "Destroy The Nova Corps",
+        "postRandomization": {
+          "schemeTwists": 9,
+          "heroes": {
+            "forceIncludeMatching": {
+              "matching": [
+                "Nova"
+              ],
+              "exactly": 1
+            },
+            "priority": 15
+          },
+          "notes": [
+            "Each player's starting deck adds 2 Wounds, 1 S.H.I.E.L.D. Officer, and a Nova card that costs 2."
+          ],
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "heroes": {
+                    "set": {
+                      "count": 5
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Annihilation_Conquest",
+        "displayName": "Annihilation: Conquest",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "heroes": {
+            "addExtra": 1
+          }
+        }
+      }
+    ]
+  }
+}
