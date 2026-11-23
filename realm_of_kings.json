@@ -1,0 +1,210 @@
+{
+  "expansion": {
+    "id": "realm_of_kings",
+    "name": "Realm of Kings",
+    "heroes": [
+      {
+        "name": "Black_Bolt",
+        "displayName": "Black Bolt",
+        "team": "Inhumans",
+        "types": [
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Medusa",
+        "displayName": "Medusa",
+        "team": "Inhumans",
+        "types": [
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Crystal",
+        "displayName": "Crystal",
+        "team": "Inhumans",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Ranged",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Karnak",
+        "displayName": "Karnak",
+        "team": "Inhumans",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Gorgon",
+        "displayName": "Gorgon",
+        "team": "Inhumans",
+        "types": [
+          "Covert",
+          "Strength"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Inhuman_Rebellion",
+        "displayName": "Inhuman Rebellion"
+      },
+      {
+        "name": "Shiar_Imperial_Elite",
+        "displayName": "Shi'ar Imperial Elite"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Maximus_the_Mad",
+        "displayName": "Maximus The Mad",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Inhuman_Rebellion"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Inhuman_Rebellion"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Emperor_Vulcan_of_the_Shiar",
+        "displayName": "Emperor Vulcan Of The Shi'ar",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Shiar_Imperial_Elite"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Shiar_Imperial_Elite"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Ruin_the_Perfect_Wedding",
+        "displayName": "Ruin The Perfect Wedding",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "dynamicNotes": [
+            {
+              "template": "Set aside two extra Heroes to get married. ({weddingHero1} and {weddingHero2})",
+              "variables": {
+                "weddingHero1": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                },
+                "weddingHero2": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "heroes"
+                }
+              }
+            },
+            {
+              "template": "Prepare each Wedding Hero into a separate 14-card stack, ordered by cost with the lowest cost on top.",
+              "variables": {}
+            }
+          ]
+        }
+      },
+      {
+        "name": "War_of_Kings",
+        "displayName": "War Of Kings",
+        "postRandomization": {
+          "schemeTwists": 11
+        }
+      },
+      {
+        "name": "Tornado_of_Terrigen_Mists",
+        "displayName": "Tornado Of Terrigen Mists",
+        "postRandomization": {
+          "schemeTwists": 10,
+          "notes": [
+            "Each player puts a small object above the Sewers to represent themself."
+          ]
+        }
+      },
+      {
+        "name": "Devolve_with_Xerogen_Crystals",
+        "displayName": "Devolve With Xerogen Crystals",
+        "postRandomization": {
+          "dynamicNotes": [
+            {
+              "template": "Add an extra Henchman Group of 10 cards as \"Xerogen Experiments.\" ({xerogenExperiments})",
+              "variables": {
+                "xerogenExperiments": {
+                  "type": "randomUnusedElementOfType",
+                  "elementType": "henchmen"
+                }
+              }
+            }
+          ],
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "schemeTwists": 4
+                },
+                "2": {
+                  "schemeTwists": 5
+                },
+                "3": {
+                  "schemeTwists": 6
+                },
+                "4": {
+                  "schemeTwists": 7
+                },
+                "5": {
+                  "schemeTwists": 8
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
