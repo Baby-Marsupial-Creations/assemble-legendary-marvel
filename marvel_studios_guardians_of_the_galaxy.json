@@ -161,6 +161,9 @@
                     },
                     "priority": 5
                   },
+                  "suppressNotes": [
+                    "Use only 3 Henchmen cards per Henchmen group."
+                  ],
                   "notes": [
                     "Use only 2 Henchmen cards per Henchmen group."
                   ]
