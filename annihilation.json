@@ -1,0 +1,187 @@
+{
+  "expansion": {
+    "id": "annihilation",
+    "name": "Annihilation",
+    "heroes": [
+      {
+        "name": "Fantastic_Four_United",
+        "displayName": "Fantastic Four United",
+        "team": "Fantastic Four",
+        "types": [
+          "Covert",
+          "Ranged",
+          "Strength",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Psi_Lord",
+        "displayName": "Psi-Lord",
+        "team": "Fantastic Four",
+        "types": [
+          "Covert",
+          "Instinct"
+        ]
+      },
+      {
+        "name": "Brainstorm",
+        "displayName": "Brainstorm",
+        "team": "Fantastic Four",
+        "types": [
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Heralds_of_Galactus",
+        "displayName": "Heralds Of Galactus",
+        "team": "Unaffiliated",
+        "types": [
+          "Covert",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Super_Skrull",
+        "displayName": "Super-Skrull",
+        "team": "Unaffiliated",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Ranged",
+          "Strength"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Annihilation_Wave",
+        "displayName": "Annihilation Wave"
+      },
+      {
+        "name": "Timelines_of_Kang",
+        "displayName": "Timelines Of Kang"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Annihilus",
+        "displayName": "Annihilus",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Annihilation_Wave"
+                    ],
+                    "priority": 10
+                  },
+                  "suppressNotes": [
+                    "Use only 3 Henchmen cards per Henchmen group."
+                  ],
+                  "notes": [
+                    "Use only 6 Henchmen cards per Henchmen group."
+                  ]
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Annihilation_Wave"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Kang_the_Conqueror",
+        "displayName": "Kang The Conqueror",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Timelines_of_Kang"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Timelines_of_Kang"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Pulse_Waves_From_the_Negative_Zone",
+        "displayName": "Pulse Waves From The Negative Zone",
+        "postRandomization": {
+          "schemeTwists": 9
+        }
+      },
+      {
+        "name": "Sneak_Attack_the_Heroes_Homes",
+        "displayName": "Sneak Attack The Heroes' Homes",
+        "postRandomization": {
+          "schemeTwists": 6,
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": { "heroes": { "set": { "count": 2 } } },
+                "2": { "heroes": { "set": { "count": 3 } } },
+                "3": { "heroes": { "set": { "count": 2 } } },
+                "4-5": { "heroes": { "set": { "count": 1 } } }
+              }
+            }
+          ],
+          "notes": [
+            "Each player chooses a Hero to add to the Hero Deck, alongside the randomly selected Heroes.",
+            "Each player adds to their starting deck three non-rare cards with different names from the Hero they chose and three Wounds."
+          ]
+        }
+      },
+      {
+        "name": "Put_Humanity_on_Trial",
+        "displayName": "Put Humanity On Trial",
+        "postRandomization": {
+          "schemeTwists": 11,
+          "notes": [
+            "Stack 11 Bystanders next to the Scheme face down as \"Galactus Jurors.\""
+          ]
+        }
+      },
+      {
+        "name": "Breach_Parallel_Dimensions",
+        "displayName": "Breach Parallel Dimensions",
+        "postRandomization": {
+          "schemeTwists": 6,
+          "bystanders": {
+            "addExtra": 4
+          },
+          "notes": [
+            "Deal the shuffled Villain Deck into several \"Dimension\" decks where the first Dimension has 1 card, the next has 2 cards, then 3, 4, etc. (The final Dimension might not have enough cards to reach its full number.)"
+          ]
+        }
+      }
+    ]
+  }
+}
