@@ -1,0 +1,244 @@
+{
+  "expansion": {
+    "id": "messiah_complex",
+    "name": "Messiah Complex",
+    "heroes": [
+      {
+        "name": "Multiple_Man",
+        "displayName": "Multiple Man",
+        "team": "X-Factor",
+        "types": [
+          "Instinct",
+          "Tech"
+        ]
+      },
+      {
+        "name": "Shatterstar",
+        "displayName": "Shatterstar",
+        "team": "X-Force",
+        "types": [
+          "Instinct",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Stepford_Cuckoos",
+        "displayName": "Stepford Cuckoos",
+        "team": "X-Men",
+        "types": [
+          "Covert",
+          "Ranged",
+          "Tech"
+        ]
+      },
+      {
+        "name": "M",
+        "displayName": "M",
+        "team": "X-Factor",
+        "types": [
+          "Covert",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Strong_Guy",
+        "displayName": "Strong Guy",
+        "team": "X-Factor",
+        "types": [
+          "Strength"
+        ]
+      },
+      {
+        "name": "Warpath",
+        "displayName": "Warpath",
+        "team": "X-Force",
+        "types": [
+          "Covert",
+          "Instinct",
+          "Strength"
+        ]
+      },
+      {
+        "name": "Siryn",
+        "displayName": "Siryn",
+        "team": "X-Factor",
+        "types": [
+          "Covert",
+          "Ranged"
+        ]
+      },
+      {
+        "name": "Rictor",
+        "displayName": "Rictor",
+        "team": "X-Factor",
+        "types": [
+          "Instinct",
+          "Ranged"
+        ]
+      }
+    ],
+    "villains": [
+      {
+        "name": "Reavers",
+        "displayName": "Reavers"
+      },
+      {
+        "name": "Purifiers",
+        "displayName": "Purifiers"
+      },
+      {
+        "name": "Acolytes",
+        "displayName": "Acolytes"
+      },
+      {
+        "name": "Clan_Yashida",
+        "displayName": "Clan Yashida"
+      }
+    ],
+    "henchmen": [
+      {
+        "name": "Mr_Sinister_Clones",
+        "displayName": "Mr. Sinister Clones"
+      },
+      {
+        "name": "Sentinel_Squad_ONE",
+        "displayName": "Sentinel Squad O*N*E*"
+      }
+    ],
+    "masterminds": [
+      {
+        "name": "Lady_Deathstrike",
+        "displayName": "Lady Deathstrike",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Reavers"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Reavers"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Bastion_Fused_Sentinel",
+        "displayName": "Bastion, Fused Sentinel",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Purifiers"
+                    ],
+                    "priority": 10
+                  },
+                  "henchmen": {
+                    "forceExcludeMatching": {
+                      "matching": [
+                        "Sentinel"
+                      ]
+                    },
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Purifiers"
+                    ],
+                    "priority": 10
+                  },
+                  "henchmen": {
+                    "forceIncludeMatching": {
+                      "matching": [
+                        "Sentinel"
+                      ]
+                    },
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Exodus",
+        "displayName": "Exodus",
+        "postRandomization": {
+          "conditionalRules": [
+            {
+              "parameter": "numberOfPlayers",
+              "conditions": {
+                "1": {
+                  "villains": {
+                    "forceExclude": [
+                      "Acolytes"
+                    ],
+                    "priority": 10
+                  }
+                },
+                "2-5": {
+                  "villains": {
+                    "forceInclude": [
+                      "Acolytes"
+                    ],
+                    "priority": 10
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "schemes": [
+      {
+        "name": "Hack_Cerebro_Servers_to",
+        "displayName": "Hack Cerebro Servers To…",
+        "postRandomization": {
+          "schemeTwists": 10
+        }
+      },
+      {
+        "name": "Drain_Mutants_Powers_to",
+        "displayName": "Drain Mutants' Powers To…",
+        "postRandomization": {
+          "schemeTwists": 11
+        }
+      },
+      {
+        "name": "Hire_Singularity_Investigations_to",
+        "displayName": "Hire Singularity Investigations To…",
+        "postRandomization": {
+          "schemeTwists": 9
+        }
+      },
+      {
+        "name": "Raid_Gene_Banks_to",
+        "displayName": "Raid Gene Banks To…",
+        "postRandomization": {
+          "schemeTwists": 8
+        }
+      }
+    ]
+  }
+}
